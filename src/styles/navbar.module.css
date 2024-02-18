@@ -1,0 +1,74 @@
+.container {
+    width: 100vw;
+    height: 13vh;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 3rem;
+}
+
+.left {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.center {
+    flex: 8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navItemBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 0.5rem;
+    position: relative;
+}
+
+.navItemBox:hover::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 3px solid rgb(5, 181, 112);;
+}
+
+.navLink {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(5, 181, 112);;
+}
+
+.registerBtn {
+    padding: 10px 15px;
+    background-color: #00272d;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}

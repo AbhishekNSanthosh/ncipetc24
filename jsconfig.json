@@ -1,7 +1,18 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@app/*": ["./src/app/*"],
+      "@api/*": ["./src/api/*"],
+      "@widgets/*": ["./src/widgets/*"],
+      "@lib/*": ["./src/common/lib/*"],
+      "@font/*": ["./src/common/font/*"],
+      "@core/*": ["./src/common/core/*"],
+      "@utils/*": ["./src/common/utils/*"],
+      "@icons/*": ["./src/common/icons/*"],
+      "@themes/*": ["./src/common/themes/*"],
+      "@styles/*": ["./src/styles/*"],
+      "@images/*": ["./src/images/*"],
+      "@components/*": ["./src/common/components/*"]
     }
   }
 }
