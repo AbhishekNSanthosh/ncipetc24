@@ -1,0 +1,81 @@
+@import 'variables';
+
+.bannerContainer {
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    object-fit: cover;
+    background: linear-gradient(to bottom, #00272d8f, #00272d8f 100%), url('/images/carmel.png') center/cover no-repeat;
+}
+
+.container {
+    display: flex;
+    height: auto;
+    width: 100vw;
+    background: url('/images/bglines.png') center/cover no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 3rem;
+}
+
+.left {
+    flex: 6;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vh;
+    flex-direction: column;
+}
+
+.right {
+    flex: 6;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3vw;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #034852;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    color: $font-highlight-color;
+}
+
+.tagline{
+    font-size: $font-size-base;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    max-width: 500px;
+    color: #000;
+}
+
+.registerBtn {
+    padding: 10px 15px;
+    background-color: #00272d;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: $font-size-base;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}

@@ -13,13 +13,13 @@ export default function Navbar() {
                 </div>
                 <div className={styles.center}>
                     {navLinks?.map((navItem, index) => (
-                        <div className={styles.navItemBox} key={`navLink${navItem+'_'+index + 1}`}>
+                        <div className={styles.navItemBox} key={`navLink${navItem + '_' + index + 1}`}>
                             <Link className={styles.navLink} href="">{navItem?.title}</Link>
                             {navItem?.moreLinks && <DropIcon />}
                             {navItem?.moreLinks &&
                                 <div className={styles.popper}>
                                     {navItem?.moreLinks?.map((moreLink, index) => (
-                                        <div key={`moreLink${moreLink+'_'+index + 1}`}>
+                                        <div key={`moreLink${moreLink + '_' + index + 1}`}>
                                             <div className={styles.row}>
                                                 <Link className={styles.moreLink} href="">{moreLink?.title}</Link>
                                             </div>
