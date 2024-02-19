@@ -1,0 +1,139 @@
+@import 'variables';
+
+.container {
+    display: flex;
+    width: 100vw;
+    background-color: #00272d;
+    color: $white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 3rem;
+    gap: 4vw;
+    width: 100%;
+}
+
+.left {
+    flex: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3vh;
+}
+
+.center {
+    flex: 6;
+}
+
+.right {
+    flex: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3vh;
+}
+
+.leftTitle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.title {
+    font-size: $font-size-lg;
+    font-weight: 600;
+}
+
+.linkCol {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vh;
+}
+
+.leftItem {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navLink {
+    font-size: $font-size-base;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 1vw;
+}
+
+.contactBox {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5vh;
+}
+
+.contactLeft {
+    border-radius: 50%;
+    padding: 0.5rem;
+    border: 1px solid $white;
+}
+
+.contactRow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contactTitle {
+    font-size: $font-size-base;
+    font-weight: 500;
+}
+
+.contactDetailTitle {
+    font-size: $font-size-sm;
+    font-weight: normal;
+}
+
+.footerRow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid $font-highlight-color;
+}
+
+.rightsRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rights{
+    font-size: $font-size-esm;
+}
