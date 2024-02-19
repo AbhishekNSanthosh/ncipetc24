@@ -1,0 +1,125 @@
+@import 'variables';
+
+.container {
+    width: 100vw;
+    background-color: #fff;
+    height: 13vh;
+    position: fixed;
+    z-index: 9990;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    top: 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 3rem;
+}
+
+.left {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.center {
+    flex: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.right {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navItemBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 0.5rem;
+    position: relative;
+}
+
+.navItemBox:hover::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 3px solid rgb(5, 181, 112);
+    ;
+}
+
+.navLink {
+    font-size: $font-size-base;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.navLink:hover {
+    color: rgb(5, 181, 112);
+}
+
+.logo {
+    font-size: $font-size-lg;
+    font-weight: 700;
+    color: rgb(5, 181, 112);
+}
+
+.registerBtn {
+    padding: 10px 15px;
+    background-color: #00272d;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: $font-size-base;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.popper {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    display: none;
+    background-color: #fff;
+    padding: 0.3rem 0.5rem;
+    box-shadow: rgba(150, 165, 149, 0.2) 0px 8px 24px;
+    margin-top: 12rem;
+    width: auto;
+    min-width: 14rem;
+    height: auto;
+    border-radius: 5px;
+}
+
+.navItemBox:hover .popper {
+    display: block;
+}
+
+.row {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.moreLink {
+    font-size: $font-size-esm;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.moreLink:hover {
+    color: $font-highlight-color;
+}

@@ -1,3 +1,4 @@
+
 export const navLinks = [
     {
         title: "home",
@@ -6,36 +7,46 @@ export const navLinks = [
     {
         title: "conference",
         link: "",
-        moreLinks:[
+        moreLinks: [
             {
                 title: "about us",
-                link: ""
+                link: "",
+                hr: true
             },
             {
                 title: "organizers",
-                link: ""
+                link: "",
+                hr: true
             },
             {
                 title: "Important dates",
-                link: ""
+                link: "",
+                hr: false
             },
         ]
     },
+    // {
+    //     title: "keynote speakers",
+    //     link: ""
+    // },
     {
         title: "paper submission",
         link: "",
-        moreLinks:[
+        moreLinks: [
             {
-                title: "paper submission links",
-                link: ""
+                title: "submission links",
+                link: "",
+                hr: true
             },
             {
                 title: "call for paper",
-                link: ""
+                link: "",
+                hr: true
             },
             {
                 title: "submission guidelines",
-                link: ""
+                link: "",
+                hr: false
             },
         ]
     },
