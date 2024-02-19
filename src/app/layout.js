@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
 import Navbar from "@widgets/Navbar";
+import "@styles/scss/main.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +19,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
       </body>
+
+      <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
     </html>
   );
 }

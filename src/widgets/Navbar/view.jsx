@@ -12,7 +12,7 @@ export default function Navbar() {
                 </div>
                 <div className={styles.center}>
                     {navLinks?.map((navItem, index) => (
-                        <div className={styles.navItemBox}>
+                        <div className={styles.navItemBox} key={`navLink${index+1}`}>
                             <Link className={styles.navLink} href="">{navItem?.title}</Link>
                         </div>
                     ))}
