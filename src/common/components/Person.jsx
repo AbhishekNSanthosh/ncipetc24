@@ -13,10 +13,19 @@ export default function Person({ person }) {
             <span className={styles.name}>{person?.name}</span>
           </div>
           <div className={styles.nameBox}>
+            <span className={styles.desgn}>{person?.qualfs}</span>
+          </div>
+          <div className={styles.nameBox}>
             <span className={styles.desgn}>{person?.desgn}</span>
           </div>
           <div className={styles.nameBox}>
             <span className={styles.desgn}>{person?.dep}</span>
+          </div>
+          <div className={styles.nameBox}>
+            <span className={styles.desgn}>{person?.clg1}</span>
+          </div>
+          <div className={styles.nameBox}>
+            <span className={styles.desgn}>{person?.clg2}</span>
           </div>
         </div>
       </div>
