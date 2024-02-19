@@ -15,7 +15,12 @@ export const navLinks = [
             },
             {
                 title: "organizers",
-                link: "",
+                link: "/organizers",
+                hr: true
+            },
+            {
+                title: "advisory board",
+                link: "/advisoryBoard",
                 hr: true
             },
             {
@@ -76,7 +81,7 @@ export const aboutUsData = [
 export const orgCommitte = {
     chiefPatron: {
         id: 1,
-        name: "REV.Fr Thomas Choolaparampil CMI",
+        name: "REV. Fr Thomas Choolaparampil CMI",
         desgn: "Chairman, CCET",
         img: "/committe/fr_thomas.jpg"
     },
@@ -104,13 +109,15 @@ export const orgCommitte = {
         {
             id: 1,
             name: "Dr M. S. Sujithra",
-            desgn: "Assistant Professor, Department of CSE, CCET",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/sujithra_ms.jpg"
         },
         {
             id: 2,
             name: "Ms v. L. Divya",
-            desgn: "Assistant Professor, Department of CSE, CCET",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/divya.jpg"
         },
     ],
@@ -118,56 +125,116 @@ export const orgCommitte = {
         {
             id: 1,
             name: "Dr Reji R",
-            desgn: "Associate Professor, Department of CSE, CCET",
+            desgn: "Associate Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/reji.jpg"
         },
         {
             id: 2,
             name: "Mr Arun P. Kuttappan",
-            desgn: "Assistant Professor, Department of CSE, CCET",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/arun_k.jpg"
         },
         {
             id: 3,
             name: "Ms Josemary A",
-            desgn: "Assistant Professor, Department of CSE, CCET",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/josemary.jpg"
         },
         {
             id: 4,
             name: "Ms Sreeja M. P",
-            desgn: "Assistant Professor, Department of CSE, CCET",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/sreeja.jpg"
         },
         {
             id: 5,
             name: "Ms Aparna A. S",
-            desgn: "Assistant Professor, Department of CSE, CCET",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/aparna_a_s.jpg"
         },
         {
             id: 6,
             name: "Ms Preethy Prabhakar",
-            desgn: "Assistant Professor, Department of CSE, CCET",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/preethy.jpg"
         },
         {
             id: 7,
             name: "Dr Remya R",
-            desgn: "Assistant Professor, Department of CSE, CCET",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/remya.jpg"
         },
         {
             id: 8,
             name: "Ms Vani V. Prakash",
-            desgn: "Assistant Professor, Department of CSE, CCET",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/vani.jpg"
         },
         {
             id: 9,
             name: "Ms Anusmitha A",
-            desgn: "Assistant Professor, Department of CSE, CCET",
+            desgn: "Assistant Professor",
+            dep: " Department of CSE, CCET",
             img: "/committe/Anusmitha_A.jpg"
         },
     ]
 }
+
+export const advisors = [
+    {
+        id: 1,
+        name: "Prof. Dr. Preetha Mathew K",
+        desgn: "Professor",
+        dep: " Department of CSE, CUCEK",
+        img: "/advisory/preetha.jpg"
+    },
+    {
+        id: 2,
+        name: "Dr. P. Sojan Lal",
+        qualfs: "M.Tech, MBA (UK), DBA(USA),I ENG(UK), Ph.D, FIE(India)",
+        desgn: "Professor",
+        dep: " Department of CSE, CUCEK",
+        clg1: "Dean(School of Computing and Strategic Planning - ASIET)",
+        clg2: "Adi Shankara Insitute of Engineering & Technology(ASIET), Kalady",
+        img: "/advisory/sojan.jpeg"
+    },
+    {
+        id: 3,
+        name: "Dr. G Muruganath",
+        desgn: "Professor,",
+        dep: "Head, Department of EEE",
+        clg1: "Ahalia School of Engineering & Technology, Palakkad",
+        img: "/advisory/muruganath.jpg"
+    },
+    {
+        id: 4,
+        name: "Prof. Syam Gopi",
+        desgn: "Associate Professor,",
+        dep: "Department of CSE",
+        clg1: "Amal Jyothi College of Engineering, Kanjirappally",
+        img: "/advisory/syam.jpeg"
+    },
+    {
+        id: 5,
+        name: "Dr. Esther Daniel",
+        desgn: "Associate Professor,",
+        dep: "Department of CSE",
+        clg1: "Karunya Insitute of Technology & Sciences, Coimbatore",
+        img: "/advisory/esther.jpeg"
+    },
+    {
+        id: 6,
+        name: "Dr. Salaji S",
+        desgn: "Associate Professor,",
+        dep: "Division of Mechanical Engineering, CUCEK",
+        img: "/advisory/salaji.jpg"
+    },
+]
