@@ -1,0 +1,68 @@
+@import 'variables';
+
+.container {
+    display: flex;
+}
+
+.wrapper {
+    display: flex;
+    margin: 3rem 3rem;
+    width: 100%;
+}
+
+.aboutBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10vh;
+}
+
+.aboutTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.aboutRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 6vh;
+}
+
+.title {
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    color: $secondary;
+    font-weight: 700;
+}
+
+.aboutBoxrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutBoxrowreverse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.descBox {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc{
+    text-align: justify;
+   font-size: large;
+}

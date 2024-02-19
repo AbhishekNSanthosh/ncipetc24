@@ -9,19 +9,19 @@ export default function Navbar() {
         <div className={styles.container}>
             <div className={styles.wrapper}>
                 <div className={styles.left}>
-                    <Link className={styles.logo} href="">NCIPETC'24</Link>
+                    <Link className={styles.logo} href="/">NCIPETC'24</Link>
                 </div>
                 <div className={styles.center}>
                     {navLinks?.map((navItem, index) => (
                         <div className={styles.navItemBox} key={`navLink${navItem + '_' + index + 1}`}>
-                            <Link className={styles.navLink} href="">{navItem?.title}</Link>
+                            <Link className={styles.navLink} href={navItem?.link}>{navItem?.title}</Link>
                             {navItem?.moreLinks && <DropIcon />}
                             {navItem?.moreLinks &&
                                 <div className={styles.popper}>
                                     {navItem?.moreLinks?.map((moreLink, index) => (
                                         <div key={`moreLink${moreLink + '_' + index + 1}`}>
                                             <div className={styles.row}>
-                                                <Link className={styles.moreLink} href="">{moreLink?.title}</Link>
+                                                <Link className={styles.moreLink} href={moreLink?.link}>{moreLink?.title}</Link>
                                             </div>
                                             {moreLink?.hr &&
                                                 <hr />
