@@ -24,7 +24,7 @@
 }
 
 .left {
-    flex: 6;
+    flex: 7;
     width: 100%;
     display: flex;
     align-items: center;
@@ -34,11 +34,16 @@
 }
 
 .right {
-    flex: 6;
+    flex: 5;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+.img{
+    height: 35rem;
+    width: 60rem;
 }
 
 .title {
@@ -54,9 +59,9 @@
 }
 
 .tagline{
-    font-size: $font-size-base;
+    font-size:0.95rem;
     font-weight: normal;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.07rem;
     max-width: 500px;
     color: #000;
 }

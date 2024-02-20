@@ -7,7 +7,8 @@ import PhoneIcon from '@icons/PhoneIcon'
 
 export default function Footer() {
   return (
-    <div className={styles.container}>
+    <section id='contactUs'>
+      <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.footerRow}>
           <div className={styles.left}>
@@ -66,5 +67,6 @@ export default function Footer() {
         </div>
       </div>
     </div>
+    </section>
   )
 }

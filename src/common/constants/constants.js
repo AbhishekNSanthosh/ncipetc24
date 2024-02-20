@@ -46,14 +46,14 @@ export const navLinks = [
             },
             {
                 title: "submission guidelines",
-                link: "/",
+                link: "/submissionGuidelines",
                 hr: false
             },
         ]
     },
     {
         title: "Contact us",
-        link: "/"
+        link: "#contactUs"
     },
 ]
 
@@ -241,55 +241,65 @@ export const advisors = [
 
 export const topics = [
     {
-        title:"next generation networks",
-        odd:true
+        title: "next generation networks",
+        odd: true
     },
     {
-        title:"neural networks",
-        odd:false
+        title: "neural networks",
+        odd: false
     },
     {
-        title:"network security",
-        odd:true
+        title: "network security",
+        odd: true
     },
     {
-        title:"ethical hacking",
-        odd:false
+        title: "ethical hacking",
+        odd: false
     },
     {
-        title:"distributed systems and parallel processing",
-        odd:true
+        title: "distributed systems and parallel processing",
+        odd: true
     },
     {
-        title:"artificial intelligence",
-        odd:false
+        title: "artificial intelligence",
+        odd: false
     },
     {
-        title:"image processing",
-        odd:true
+        title: "image processing",
+        odd: true
     },
     {
-        title:"bigdata analytics",
-        odd:false
+        title: "bigdata analytics",
+        odd: false
     },
     {
-        title:"internet of things",
-        odd:true
+        title: "internet of things",
+        odd: true
     },
     {
-        title:"cyber security",
-        odd:false
+        title: "cyber security",
+        odd: false
     },
     {
-        title:"machince learning",
-        odd:true
+        title: "machince learning",
+        odd: true
     },
     {
-        title:"block chain",
-        odd:false
+        title: "block chain",
+        odd: false
     },
     {
-        title:"ubiquitous computing",
-        odd:true
+        title: "ubiquitous computing",
+        odd: true
     },
+]
+
+export const authorGuidelines = [
+    "We invite the original/review full-text papers from the UG/PG students, academicians/researchers, and industrial experts",
+    "paper should meet the scope of the conference, unpublished and not under consideration for publication elsewhere.",
+    "Prospective Author(s) are requested to submit their softcopy of research papers in IEEE format and not exceedin six pages in length.",
+    "Papers will be reviewed by the experts and will be selected base on novelty and technical content.",
+    "Selected papers should be presented orally by one of the author.",
+    "A few selected papers accepted after peer review, it will be published in SCI/Scopus Indexed Journals.",
+    "Article processing charges if any, shall be payable based on the respective journal policy."
 ]
