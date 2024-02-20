@@ -41,7 +41,7 @@ export const navLinks = [
             },
             {
                 title: "call for paper",
-                link: "/",
+                link: "/callForPapers",
                 hr: true
             },
             {
@@ -236,5 +236,60 @@ export const advisors = [
         desgn: "Associate Professor,",
         dep: "Division of Mechanical Engineering, CUCEK",
         img: "/advisory/salaji.jpg"
+    },
+]
+
+export const topics = [
+    {
+        title:"next generation networks",
+        odd:true
+    },
+    {
+        title:"neural networks",
+        odd:false
+    },
+    {
+        title:"network security",
+        odd:true
+    },
+    {
+        title:"ethical hacking",
+        odd:false
+    },
+    {
+        title:"distributed systems and parallel processing",
+        odd:true
+    },
+    {
+        title:"artificial intelligence",
+        odd:false
+    },
+    {
+        title:"image processing",
+        odd:true
+    },
+    {
+        title:"bigdata analytics",
+        odd:false
+    },
+    {
+        title:"internet of things",
+        odd:true
+    },
+    {
+        title:"cyber security",
+        odd:false
+    },
+    {
+        title:"machince learning",
+        odd:true
+    },
+    {
+        title:"block chain",
+        odd:false
+    },
+    {
+        title:"ubiquitous computing",
+        odd:true
     },
 ]

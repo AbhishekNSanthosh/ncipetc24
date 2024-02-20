@@ -1,0 +1,147 @@
+@import 'variables';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    margin-top: 1rem;
+    background-color: $secondary;
+    background-image: url('/images/bglines.png');
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: $primary;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    margin: 15vh 3rem 10vh 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15vh;
+}
+
+.callRow {
+    display: flex;
+    width: 100%;
+    gap: 5vh;
+}
+
+.callLeft {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.callRight {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.desc {
+    font-size: $font-size-lg;
+}
+
+.topicLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10vh;
+    width: 100%;
+}
+
+.topicRight {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.topicTitleBox {
+    display: flex;
+    width: 100%;
+}
+
+.topicTitle {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.topicsCol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.topicItemBoxprimary {
+    display: flex;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    width: 45vw;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vh;
+    background-color: $primary;
+    cursor: pointer;
+}
+
+.topicItemBoxprimary:hover{
+    background-color: $secondary;
+}
+
+.topicItemBoxSecondary {
+    display: flex;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    width: 45vw;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2vh;
+    background-color: $secondary;
+    cursor: pointer;
+}
+
+.topicItemBoxSecondary:hover{
+    background-color: $primary;
+}
+
+.indexBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem;
+    border-radius: 50%;
+    background-color: $white;
+}
+
+.topicNameBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.topic {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: $white;
+    text-transform: capitalize;
+}
