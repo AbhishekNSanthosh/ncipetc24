@@ -46,6 +46,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 4rem;
+    gap: 5vh;
 }
 
 .aboutBoxrowreverse {
@@ -53,6 +55,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: row-reverse;
+    padding: 0 4rem;
+    gap: 5vh;
 }
 
 .descBox {

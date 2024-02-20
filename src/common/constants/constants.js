@@ -6,7 +6,7 @@ export const navLinks = [
     },
     {
         title: "conference",
-        link: "",
+        link: "/",
         moreLinks: [
             {
                 title: "about us",
@@ -25,7 +25,7 @@ export const navLinks = [
             },
             {
                 title: "Important dates",
-                link: "",
+                link: "/importantDates",
                 hr: false
             },
         ]
@@ -36,24 +36,24 @@ export const navLinks = [
         moreLinks: [
             {
                 title: "submission links",
-                link: "",
+                link: "/",
                 hr: true
             },
             {
                 title: "call for paper",
-                link: "",
+                link: "/",
                 hr: true
             },
             {
                 title: "submission guidelines",
-                link: "",
+                link: "/",
                 hr: false
             },
         ]
     },
     {
         title: "Contact us",
-        link: ""
+        link: "/"
     },
 ]
 
