@@ -16,7 +16,7 @@ export default function CallForPapers() {
             </span>
           </div>
           <div className={styles.callRight}>
-            <Image src="/images/callforpaper.svg" height={500} width={500} />
+            <Image src="/images/callforpaper.svg" height={500} width={500} className={styles.img}/>
           </div>
         </div>
         <div className={styles.callRow}>
@@ -41,17 +41,6 @@ export default function CallForPapers() {
               ))}
             </div>
           </div>
-          {/* <div className={styles.topicRight}>
-            <div className={styles.topicsCol}>
-              {topics?.slice(6,13).map((topic, index) => (
-                <div className={topic?.odd ? styles.topicItemBoxprimary : styles.topicItemBoxSecondary} key={`topicindex${index}`}>
-                  <div className={styles.indexBox}>{index + 7}</div>
-                  <div className={styles.topicNameBox}>{topic?.title}</div>
-                  <div className={styles.iconBox}></div>
-                </div>
-              ))}
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

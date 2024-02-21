@@ -118,6 +118,13 @@ export default function Navbar() {
                                 }
                             </div>
                         ))}
+                        <div className={styles.res}>
+                            <button className={styles.registerResBtn}>Register now</button>
+                        </div>
+                    </div>
+                    <div className={styles.credits}>
+                        <span className={styles.rights}>Copyright © 2024 - NCIPETC'24</span>
+                        <span className={styles.rights}>Designed & Developed by <Link target='_blank' className={styles.high} href="https://www.linkedin.com/in/abhishek-santhosh/">Abhishek Santhosh</Link></span>
                     </div>
                 </div>
             }

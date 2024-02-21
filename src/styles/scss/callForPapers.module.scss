@@ -19,12 +19,38 @@
     background-image: url('/images/bglines.png');
 }
 
+
+@media only screen and (max-width: 880px) {
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 8vh;
+        margin-top: 0;
+        background-color: $secondary;
+        background-image: url('/images/bglines.png');
+    }
+}
+
+
 .title {
     font-size: 2rem;
     font-weight: 800;
     color: $primary;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 880px) {
+
+    .title {
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: $primary;
+        text-transform: uppercase;
+    }
+}
+
 
 .wrapper {
     margin: 15vh 3rem 10vh 3rem;
@@ -33,10 +59,42 @@
     gap: 15vh;
 }
 
+@media only screen and (max-width: 880px) {
+    .wrapper {
+        margin: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+}
+
+
 .callRow {
     display: flex;
     width: 100%;
     gap: 5vh;
+}
+
+
+@media only screen and (max-width: 880px) {
+    .callRow {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 3vh;
+    }
+}
+
+.img {
+    width: 23rem;
+    height: 23rem;
+}
+
+@media only screen and (max-width: 880px) {
+    .img {
+        width: 17rem;
+        height: 17rem;
+    }
 }
 
 .callLeft {
@@ -104,7 +162,21 @@
     cursor: pointer;
 }
 
-.topicItemBoxprimary:hover{
+@media only screen and (max-width: 880px) {
+    .topicItemBoxprimary {
+        display: flex;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        width: 92vw;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2vh;
+        background-color: $primary;
+        cursor: pointer;
+    }
+}
+
+.topicItemBoxprimary:hover {
     background-color: $secondary;
 }
 
@@ -120,7 +192,21 @@
     cursor: pointer;
 }
 
-.topicItemBoxSecondary:hover{
+@media only screen and (max-width: 880px) {
+    .topicItemBoxSecondary {
+        display: flex;
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        width: 92vw;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2vh;
+        background-color: $secondary;
+        cursor: pointer;
+    }
+}
+
+.topicItemBoxSecondary:hover {
     background-color: $primary;
 }
 
@@ -144,4 +230,17 @@
     font-weight: 500;
     color: $white;
     text-transform: capitalize;
+}
+
+@media only screen and (max-width: 880px) {
+    .topic {
+        font-size: 1rem;
+        font-weight: 500;
+        color: $white;
+        text-transform: capitalize;
+    }
+}
+
+.index{
+    font-weight: 500;
 }

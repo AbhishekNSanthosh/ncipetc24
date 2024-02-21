@@ -17,6 +17,21 @@
     background-image: url('/images/bglines.png');
 }
 
+
+@media only screen and (max-width: 880px) {
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 8vh;
+        margin-top: 0;
+        background-color: $secondary;
+        background-image: url('/images/bglines.png');
+    }
+}
+
+
 .title {
     font-size: 2rem;
     font-weight: 800;
@@ -24,11 +39,31 @@
     text-transform: uppercase;
 }
 
+@media only screen and (max-width: 880px) {
+
+    .title {
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: $primary;
+        text-transform: uppercase;
+    }
+}
+
+
 .wrapper {
     margin: 15vh 3rem 10vh 3rem;
     display: flex;
     flex-direction: column;
     gap: 15vh;
+}
+
+@media only screen and (max-width: 880px) {
+    .wrapper {
+        margin: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 15vh;
+    }
 }
 
 .row {
@@ -51,7 +86,9 @@
 
 .guidelines {
     display: flex;
-    gap: 4vh;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3vh;
 }
 
 .titlename{
@@ -59,4 +96,13 @@
     font-weight: 500;
     color: $secondary;
     text-transform: capitalize;
+}
+
+@media only screen and (max-width: 880px) {
+    .titlename{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: $secondary;
+        text-transform: capitalize;
+    }
 }

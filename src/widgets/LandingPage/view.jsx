@@ -19,7 +19,7 @@ export default function LandingPage() {
                     </div>
                 </div>
                 <div className={styles.right}>
-                    <Image src="/images/carmelIndia.png" height={700} width={800} className={styles.img}/>
+                    <Image src="/images/carmelInd.png" height={700} width={800} className={styles.img}/>
                 </div>
             </div>
         </div>

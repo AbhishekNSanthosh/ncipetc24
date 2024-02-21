@@ -190,10 +190,13 @@
 @media only screen and (max-width: 880px) {
     .drawer {
         display: flex;
+        // flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: flex-start;
         background-color: $white;
-        height: 100vh;
+        height:92vh;
+        width: 100vw;
+        position: relative;
     }
 }
 
@@ -223,7 +226,7 @@
 
 .mobileRow {
     display: flex;
-    width: 100%;
+    width: 95%;
     justify-content: space-between;
 }
 
@@ -261,4 +264,53 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
+}
+
+.res {
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 880px) {
+    .res {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.registerResBtn {
+    display: flex;
+    margin-top: 1rem; 
+    width: 95vw;
+    border-radius: 5px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    font-weight: 600;
+    background-color: $secondary;
+}
+
+.credits{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 1rem;
+    left: 0.5rem;
+}
+
+.rights{
+    font-size: 0.8rem;
+}
+
+.high{
+    font-weight: 500;
+    color: $primary;
 }
