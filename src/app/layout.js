@@ -1,10 +1,10 @@
-import { Inter } from "next/font/google";
+import { Raleway } from "next/font/google";
 import Navbar from "@widgets/Navbar";
 import "@styles/main.scss";
 import Footer from "@widgets/Footer";
 import styles from '@styles/scss/home.module.scss'
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
   title: "NCIPETC'24",
