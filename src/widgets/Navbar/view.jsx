@@ -72,7 +72,9 @@ export default function Navbar() {
                                     }
                                 }}>
                                     <div className={styles.mobileRow}>
-                                        <div className={styles.navMobileItemName}>
+                                        <div className={styles.navMobileItemName} onClick={() => {
+                                            setShowLink(index);
+                                        }}>
                                             <span className={styles.navMobileItem}>{link?.title}</span>
                                         </div>
                                         {link?.moreLinks ?

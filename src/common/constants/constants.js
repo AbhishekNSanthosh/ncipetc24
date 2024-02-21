@@ -73,7 +73,7 @@ export const aboutUsData = [
     {
         title: "About department",
         desc: "The Department of CSE in Carmel College of Engineering and Technology was established in 2017 with a maximum intake of 60 students per year. Department plays a key role to enhance the learning and technical competence of students in the field of Computer Science & Engineering. Workshops and hands-on sessions are conducted on a regular basis. The Department frequently conducts seminars and invited talks with the support of experienced resource persons from the industry and well known Academic institutions. Department has signed MoU with various IT legends and International Universities.",
-        img: "",
+        img: "/images/dep.png",
         reverse: false
     }
 ]
