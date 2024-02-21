@@ -3,3 +3,12 @@
     margin-top: 13vh;
     height: auto;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .homeContainer {
+        min-height: 100vh;
+        margin-top: 10vh;
+        height: auto;
+    }
+}

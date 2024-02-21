@@ -6,8 +6,20 @@
     justify-content: center;
     width: 20rem;
     height: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20rem;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
 }
 
 .wrapper {
@@ -19,17 +31,39 @@
     gap: 1.5vh;
 }
 
+@media only screen and (max-width: 767px) {
+    .wrapper {
+        margin: 0.6rem 0.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5vh;
+    }
+}
+
 .imgBox {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 
 .img {
     max-width: 300px;
     max-height: 320px;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+    .img {
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+    }
 }
 
 .detailsBox {
@@ -40,12 +74,12 @@
     justify-content: center;
 }
 
-.name{
+.name {
     font-weight: 500;
     color: $secondary;
 }
 
-.desgn{
+.desgn {
     color: $primary;
     text-align: center;
 }
