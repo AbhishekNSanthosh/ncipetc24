@@ -11,7 +11,7 @@
     top: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .container {
         width: 100vw;
         background-color: #fff;
@@ -32,7 +32,7 @@
     margin: 0 3rem;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .wrapper {
         display: flex;
         align-items: center;
@@ -57,7 +57,7 @@
     gap: 1vw;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .center {
         display: none;
     }
@@ -70,7 +70,7 @@
     justify-content: flex-end;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .right {
         display: none;
     }
@@ -80,7 +80,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .rightMobile {
         display: block;
     }
@@ -121,7 +121,7 @@
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .logo {
         font-size: 1.2rem;
         font-weight: 700;
@@ -187,7 +187,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .drawer {
         display: flex;
         align-items: flex-start;

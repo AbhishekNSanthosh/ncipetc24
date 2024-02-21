@@ -17,7 +17,7 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -44,7 +44,7 @@
     flex: 6;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .center {
         flex: 6;
         width: 100%;
@@ -159,7 +159,7 @@
     border-bottom: 1px solid $font-highlight-color;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .footerRow {
         display: flex;
         flex-direction: column-reverse;
@@ -180,7 +180,7 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 880px) {
     .rightsRow {
         display: flex;
         flex-direction: column;
