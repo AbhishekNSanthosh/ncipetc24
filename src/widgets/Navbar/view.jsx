@@ -12,7 +12,7 @@ import PlusIcon from '@icons/PlusIcon'
 import MinusIcon from '@icons/MinusIcon'
 
 export default function Navbar() {
-    const [isDrawerOpen, setIsDrawerOpen] = useState(true);
+    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
     const [showLink, setShowLink] = useState(null);
     return (
         <div className={styles.container}>
@@ -28,7 +28,7 @@ export default function Navbar() {
                             {navItem?.moreLinks &&
                                 <div className={styles.popper}>
                                     {navItem?.moreLinks?.map((moreLink, index) => (
-                                        <div className={styles.morelinkBox} key={`moreLink${moreLink + '_' + index + 1}`}>
+                                        <div className={styles.morelinkBox} key={`moreLink${index + 1}`}>
                                             <div className={styles.row}>
                                                 <Link className={styles.moreLink} href={moreLink?.link}>{moreLink?.title}</Link>
                                             </div>
