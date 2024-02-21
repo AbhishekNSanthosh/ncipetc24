@@ -23,24 +23,24 @@ export default function Footer() {
               </div>
               <div className={styles.linkCol}>
                 {navLinks?.map((link, index) => (
-                  <div key={`navlink_` + index}>
+                  <div className={styles.footerRes} key={`navlink_` + index}>
                     <div className={styles.leftItem} >
                       <Link href='' className={styles.navLink}>{link?.title}</Link>
                       {link?.moreLinks && <>
-                        {clicked ? <div className={styles.plusIcon} onClick={() => setClicked(null)}><MinusIcon /></div>
+                        {clicked === index ? <div className={styles.plusIcon} onClick={() => setClicked(null)}><MinusIcon /></div>
                           :
                           <div className={styles.plusIcon} onClick={() => setClicked(index)}><PlusIcon /></div>
                         }
                       </>}
                     </div>
-                    {clicked === index && <>
+                    {clicked === index && <div className={styles.morelinkcol}>
                       {link?.moreLinks?.map((moreLink, index) => (
                         <div className={styles.moreLink} key={`morelink${index}`}>
                           <RockerIcon />
                           <Link href='' className={styles.navLink}>{moreLink?.title}</Link>
                         </div>
                       ))}
-                    </>}
+                    </div>}
                   </div>
                 ))}
               </div>
