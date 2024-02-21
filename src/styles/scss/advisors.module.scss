@@ -18,9 +18,29 @@
     background-image: url('/images/bglines.png');
 }
 
+@media only screen and (max-width: 767px) {
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 8vh;
+        margin-top: 0;
+        background-color: $secondary;
+        background-image: url('/images/bglines.png');
+    }
+}
+
 .wrapper {
     display: flex;
     margin: 3rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .wrapper {
+        display: flex;
+        margin: 2rem 1rem 3rem 1rem;
+    }
 }
 
 .title {
@@ -28,6 +48,16 @@
     font-weight: 800;
     color: $primary;
     text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .title {
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: $primary;
+        text-transform: uppercase;
+    }
 }
 
 .organizerBox {
@@ -49,6 +79,19 @@
     gap: 7vh;
 }
 
+
+@media only screen and (max-width: 767px) {
+    .row {
+        display: flex;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3vh;
+    }
+}
+
 .titleRow {
     display: flex;
     width: 100%;
@@ -64,11 +107,31 @@
     background-color: $primary;
 }
 
+
+@media only screen and (max-width: 767px) {
+    .dash {
+        flex: 3;
+        height: 1px;
+        width: 100%;
+        background-color: $primary;
+    }
+}
+
 .titleBoxDash {
     flex: 3;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .titleBoxDash {
+        flex: 6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 
 .desgnTitle {
@@ -78,7 +141,16 @@
     letter-spacing: 0.3rem;
 }
 
-.personRow{
+@media only screen and (max-width: 767px) {
+    .desgnTitle {
+        font-size: 1.1rem;
+        color: $primary;
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+    }
+}
+
+.personRow {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
