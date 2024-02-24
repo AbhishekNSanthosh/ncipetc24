@@ -90,3 +90,56 @@
     justify-content: center;
     width: 100%;
 }
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    margin-top: 1rem;
+    background-color: $secondary;
+    background-image: url('/images/bglines.png');
+}
+
+@media only screen and (max-width: 880px) {
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 8vh;
+        margin-top: 0;
+        background-color: $secondary;
+        background-image: url('/images/bglines.png');
+    }
+}
+
+.wrapper {
+    display: flex;
+    // margin: 3rem;
+}
+
+@media only screen and (max-width: 880px) {
+    .wrapper {
+        display: flex;
+        margin: 2rem 1rem 3rem 1rem;
+    }
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: $primary;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 880px) {
+
+    .title {
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: $primary;
+        text-transform: uppercase;
+    }
+}

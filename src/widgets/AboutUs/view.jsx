@@ -2,10 +2,12 @@ import React from 'react'
 import styles from '@styles/scss/about.module.scss'
 import { aboutUsData } from '../../common/constants/constants'
 import Image from 'next/image'
+import Banner from '@components/Banner'
 
 export default function AboutUs() {
   return (
     <div className={styles.container}>
+      <Banner title={"About Us"}/>
       <div className={styles.wrapper}>
         <div className={styles.aboutBox}>
           {aboutUsData?.map((about, index) => (

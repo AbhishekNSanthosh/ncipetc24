@@ -79,32 +79,6 @@ export const aboutUsData = [
 ]
 
 export const orgCommitte = {
-    chiefPatron: {
-        id: 1,
-        name: "REV. Fr Thomas Choolaparampil CMI",
-        desgn: "Chairman, CCET",
-        img: "/committe/fr_thomas.jpg"
-    },
-    patrons: [
-        {
-            id: 1,
-            name: "REV. Fr Justin Alukkal CMI",
-            desgn: "Director, CCET",
-            img: "/committe/fr_justin.jpg"
-        },
-        {
-            id: 2,
-            name: "Dr Paul K. Mathew",
-            desgn: "Principal, CCET",
-            img: "/committe/paul_k_mathew.jpg"
-        },
-    ],
-    convener: {
-        id: 1,
-        name: "Mr. Anoop R. S",
-        desgn: "Head, Department of CSE, CCET",
-        img: "/committe/anoop_rs.jpg"
-    },
     coordinators: [
         {
             id: 1,
@@ -115,7 +89,7 @@ export const orgCommitte = {
         },
         {
             id: 2,
-            name: "Ms v. L. Divya",
+            name: "Ms V. L. Divya",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
             img: "/committe/divya.jpg"
@@ -204,7 +178,8 @@ export const advisors = [
         dep: " Department of CSE, CUCEK",
         clg1: "Dean(School of Computing and Strategic Planning - ASIET)",
         clg2: "Adi Shankara Insitute of Engineering & Technology(ASIET), Kalady",
-        img: "/advisory/sojan.jpeg"
+        img: "/advisory/sojan.jpeg",
+        more: true
     },
     {
         id: 3,
@@ -212,7 +187,8 @@ export const advisors = [
         desgn: "Professor,",
         dep: "Head, Department of EEE",
         clg1: "Ahalia School of Engineering & Technology, Palakkad",
-        img: "/advisory/muruganath.jpg"
+        img: "/advisory/muruganath.jpg",
+        more: true
     },
     {
         id: 4,
@@ -220,7 +196,8 @@ export const advisors = [
         desgn: "Associate Professor,",
         dep: "Department of CSE",
         clg1: "Amal Jyothi College of Engineering, Kanjirappally",
-        img: "/advisory/syam.jpeg"
+        img: "/advisory/syam.jpeg"  ,
+        more: true
     },
     {
         id: 5,
@@ -228,7 +205,8 @@ export const advisors = [
         desgn: "Associate Professor,",
         dep: "Department of CSE",
         clg1: "Karunya Insitute of Technology & Sciences, Coimbatore",
-        img: "/advisory/esther.jpeg"
+        img: "/advisory/esther.jpeg",
+        more:true
     },
     {
         id: 6,
@@ -302,4 +280,35 @@ export const authorGuidelines = [
     "Selected papers should be presented orally by one of the author.",
     "A few selected papers accepted after peer review, it will be published in SCI/Scopus Indexed Journals.",
     "Article processing charges if any, shall be payable based on the respective journal policy."
+]
+
+export const committe = [
+    {
+        id: 1,
+        name: "REV. Fr Thomas Choolaparampil CMI",
+        desgn: "Chairman, CCET",
+        img: "/committe/fr_thomas.svg",
+        role: "chief Patron"
+    },
+    {
+        id: 1,
+        name: "REV. Fr Justin Alukkal CMI",
+        desgn: "Director, CCET",
+        img: "/committe/fr_justin.svg",
+        role: "parton"
+    },
+    {
+        id: 2,
+        name: "Dr Paul K. Mathew",
+        desgn: "Principal, CCET",
+        img: "/committe/paul_k_mathew.svg",
+        role: "parton"
+    },
+    {
+        id: 1,
+        name: "Mr. Anoop R. S",
+        desgn: "Head, Department of CSE, CCET",
+        img: "/committe/anoop_rs.svg",
+        role: "convener"
+    },
 ]

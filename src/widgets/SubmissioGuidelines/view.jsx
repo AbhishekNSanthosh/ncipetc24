@@ -2,13 +2,12 @@ import React from 'react'
 import styles from '@styles/scss/submissionGuidelines.module.scss'
 import RockerIcon from '@icons/RockerIcon'
 import { authorGuidelines } from '../../common/constants/constants'
+import Banner from '@components/Banner'
 
 export default function SubmissionGuidelines() {
   return (
     <div className={styles.container}>
-      <div className={styles.banner}>
-        <span className={styles.title}>Submission guidelines</span>
-      </div>
+      <Banner title={"Submission guidelines"}/>
       <div className={styles.wrapper}>
         <div className={styles.row}>
           <div className={styles.titleBox}>

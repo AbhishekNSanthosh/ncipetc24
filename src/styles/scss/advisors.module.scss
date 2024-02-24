@@ -3,8 +3,10 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: auto;
+    min-height: 100vh;
     width: 100vw;
+    padding: 0rem 5vw 15vh;
+    background: url('/images/bglines.png') center/cover no-repeat fixed;
 }
 
 .banner {
@@ -33,13 +35,12 @@
 
 .wrapper {
     display: flex;
-    margin: 3rem;
 }
 
 @media only screen and (max-width: 880px) {
     .wrapper {
         display: flex;
-        margin: 2rem 1rem 3rem 1rem;
+        margin: 1rem  0 3rem 0;
     }
 }
 
@@ -131,7 +132,7 @@
         align-items: center;
         justify-content: center;
     }
-    
+
 }
 
 .desgnTitle {
@@ -156,4 +157,14 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 4vh;
+}
+
+@media only screen and (max-width: 880px) {
+    .personRow {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4vh;
+    }
 }

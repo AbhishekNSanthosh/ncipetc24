@@ -1,0 +1,169 @@
+@import 'variables';
+
+.container {
+    width: 300px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    // box-shadow: 0 7px 29px hsla(0, 0%, 88%, .2);
+}
+
+@media only screen and (max-width: 880px) {
+    .container {
+        width: 300px;
+        height: 320px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        // box-shadow: 0 7px 29px hsla(0, 0%, 88%, .2);
+    }
+}
+
+
+// background: linear-gradient(to bottom, #00272dd3, #00272dbe 100%), url('/images/conference.jpeg') center/cover no-repeat;
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    position: absolute;
+    top: 1rem;
+    transition: all 600ms ease;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: $white;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    background: linear-gradient(to bottom, rgb(5, 181, 112), #00272d 100%);
+    border-radius: 20px;
+    padding: 4rem;
+    height: 320px;
+    transition: all 600ms ease;
+    position: relative;
+
+    &:hover {
+
+        .title {
+            transform: translateY(-50px);
+            color: $secondary;
+            background: -webkit-linear-gradient(45deg, rgb(5, 181, 112), rgb(12, 129, 83), #00272db2, #00272d) text;
+            -webkit-text-fill-color: transparent;
+            /* Adjust the value as needed */
+        }
+
+        @media only screen and (max-width: 880px) {
+            .title {
+                transform: none;
+                color: $white;
+                background: transparent;
+                /* Adjust the value as needed */
+            }
+        }
+
+        .btm {
+            transform: translateY(60px);
+
+            // background-color: $secondary;
+            .name {
+                font-size: $font-size-base;
+                font-weight: 600;
+                color: $secondary;
+            }
+
+            .desgn {
+                font-size: $font-size-sm;
+                font-weight: 500;
+                color: $primary;
+            }
+        }
+
+
+        @media only screen and (max-width: 880px) {
+            .btm {
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                transform: none;
+                background-color: $secondary;
+
+                .name {
+                    font-size: $font-size-base;
+                    font-weight: 600;
+                    color: $white;
+                }
+
+                .desgn {
+                    font-size: $font-size-sm;
+                    font-weight: 500;
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        background: linear-gradient(to bottom, rgb(5, 181, 112), #00272d 100%);
+        border-radius: 20px;
+        padding: 5rem;
+        height: 320px;
+        transition: all 600ms ease;
+        position: relative;
+    }
+}
+
+.img {
+    border-radius: 50%;
+    transition: all 600ms ease;
+    object-fit: cover;
+}
+
+.img:hover {
+    border-radius: 18px;
+    height: 100%;
+    width: 100%;
+}
+
+.top:hover {
+    padding: 0;
+}
+
+.btm {
+    position: absolute;
+    bottom: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 600ms ease;
+
+    .name {
+        font-size: $font-size-base;
+        font-weight: 600;
+        color: $white;
+    }
+
+    .desgn {
+        font-size: $font-size-sm;
+        font-weight: 500;
+        color: $white;
+    }
+}

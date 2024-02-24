@@ -3,8 +3,8 @@
 .container {
     width: 100vw;
     background-color: #fff;
-    height: 13vh;
-    // padding: 25px 5vw 20px;
+    // height: 13vh;
+    padding: 25px 5vw 20px;
     position: fixed;
     z-index: 9990;
     -webkit-backdrop-filter: blur(8px);
@@ -15,9 +15,13 @@
 @media only screen and (max-width: 880px) {
     .container {
         width: 100vw;
-        background-color: #fff;
-        height: 8vh;
+        background-color: $white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
         position: fixed;
+        padding: 15px 5vw 10px;
         z-index: 9990;
         -webkit-backdrop-filter: blur(8px);
         backdrop-filter: blur(8px);
@@ -30,17 +34,24 @@
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    margin: 0 3rem;
+    // margin: 0 3rem;
 }
 
 @media only screen and (max-width: 880px) {
     .wrapper {
         display: flex;
         align-items: center;
+        flex-direction: column;
         justify-content: space-between;
         height: 100%;
-        margin: 0 1rem;
     }
+}
+
+.navRow{
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .left {
@@ -137,8 +148,8 @@
     border-radius: 5px;
     border: none;
     outline: none;
-    font-size: $font-size-base;
-    font-weight: 600;
+    font-size: $font-size-esm;
+    font-weight: 500;
     color: #fff;
     cursor: pointer;
 }
@@ -195,10 +206,10 @@
         align-items: flex-start;
         justify-content: center;
         background-color: $white;
-        height:92vh;
+        height:95vh;
         width: 100vw;
         position: relative;
-        padding: 1rem;
+        padding: 5vw;
     }
 }
 

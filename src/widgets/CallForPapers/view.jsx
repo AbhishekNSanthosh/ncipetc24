@@ -2,12 +2,11 @@ import React from 'react'
 import styles from '@styles/scss/callForPapers.module.scss'
 import Image from 'next/image'
 import { topics } from '../../common/constants/constants'
+import Banner from '@components/Banner'
 export default function CallForPapers() {
   return (
     <div className={styles.container}>
-      <div className={styles.banner}>
-        <span className={styles.title}>Call For Papers</span>
-      </div>
+      <Banner title={"Call for papers"} />
       <div className={styles.wrapper}>
         <div className={styles.callRow}>
           <div className={styles.callLeft}>
@@ -16,21 +15,19 @@ export default function CallForPapers() {
             </span>
           </div>
           <div className={styles.callRight}>
-            <Image src="/images/callforpaper.svg" height={500} width={500} className={styles.img}/>
+            <Image src="/images/callforpaper.svg" height={500} width={500} className={styles.img} />
           </div>
         </div>
-        <div className={styles.callRow}>
 
-        </div>
-
-        <div className={styles.callRow}>
+      
+        <div className={styles.callBtmRow}>
           <div className={styles.topicLeft}>
             <div className={styles.topicTitleBox}>
               <span className={styles.topicTitle}>Topics of interest include, but not limited to the following:</span>
             </div>
             <div className={styles.topicsCol}>
               {topics?.map((topic, index) => (
-                <div className={topic?.odd ? styles.topicItemBoxprimary : styles.topicItemBoxSecondary} key={`topicindex${index}`}>
+                <div className={styles.topicItemBox} key={`topicindex${index}`}>
                   <div className={styles.indexBox}>
                     <span className={styles.index}>{index + 1}</span>
                   </div>

@@ -3,43 +3,36 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: auto;
+    min-height: 100vh;
     width: 100vw;
-}
-
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 15vh;
-    margin-top: 1rem;
-    background-color: $secondary;
-    background-image: url('/images/bglines.png');
+    padding: 0rem 5vw 15vh;
+    background: url('/images/bglines.png') center/cover no-repeat fixed;
 }
 
 @media only screen and (max-width: 880px) {
-    .banner {
+    .container {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
         width: 100vw;
-        height: 8vh;
-        margin-top: 0;
-        background-color: $secondary;
-        background-image: url('/images/bglines.png');
+        padding: 0rem 5vw 7vh;
+        background: url('/images/bglines.png') center/cover no-repeat fixed;
     }
 }
 
 .wrapper {
     display: flex;
-    margin: 3rem;
+    align-items: center;
+    justify-content: center;
+    // margin: 3rem;
 }
 
 @media only screen and (max-width: 880px) {
     .wrapper {
         display: flex;
-        margin: 2rem 1rem 3rem 1rem;
+        align-items: center;
+        justify-content: center;
+        margin: 0.2rem 0rem 1rem 0rem;
     }
 }
 
@@ -65,8 +58,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 10vh;
+    justify-content: space-between;
+    gap: 13vh;
+}
+
+@media only screen and (max-width: 880px) {
+    .organizerBox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5vh;
+    }
 }
 
 .row {
@@ -76,7 +80,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 7vh;
+    gap: 8vh;
 }
 
 
@@ -131,7 +135,7 @@
         align-items: center;
         justify-content: center;
     }
-    
+
 }
 
 .desgnTitle {
@@ -139,6 +143,7 @@
     color: $primary;
     font-weight: 600;
     letter-spacing: 0.3rem;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 880px) {
@@ -152,8 +157,9 @@
 
 .personRow {
     display: flex;
+    width: 100%;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4vh;
+    gap: 2rem;
 }
