@@ -62,7 +62,7 @@ export default function Footer() {
                       <span className={styles.contactTitle}>Email:</span>
                     </div>
                     <div className={styles.contactRow}>
-                      <span className={styles.contactDetailTitle}>ncipetc24@gmail.com</span>
+                      <Link href="mailto:conferencecse@carmelcet.in" className={styles.contactDetailTitle}>conferencecse@carmelcet.in</Link>
                     </div>
                   </div>
                 </div>
@@ -76,7 +76,8 @@ export default function Footer() {
                       <span className={styles.contactTitle}>Phone:</span>
                     </div>
                     <div className={styles.contactRow}>
-                      <span className={styles.contactDetailTitle}>+91 7907247909</span>
+                      <Link href="tel:+919995267896" className={styles.contactDetailTitle}>+91 9995267896, </Link>
+                      <Link href="tel:+918589059517" className={styles.contactDetailTitle}>+91 8589059517</Link>
                     </div>
                   </div>
                 </div>
