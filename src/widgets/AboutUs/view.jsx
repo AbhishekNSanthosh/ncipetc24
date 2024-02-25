@@ -7,7 +7,6 @@ import Banner from '@components/Banner'
 export default function AboutUs() {
   return (
     <div className={styles.container}>
-      <Banner title={"About Us"}/>
       <div className={styles.wrapper}>
         <div className={styles.aboutBox}>
           {aboutUsData?.map((about, index) => (
