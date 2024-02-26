@@ -154,7 +154,7 @@
     align-items: center;
     justify-content: center;
     gap: 4vw;
-    min-height: 63vh;
+    min-height: 70vh;
     padding-bottom: 3rem;
     border-bottom: 1px solid $font-highlight-color;
 }
@@ -206,4 +206,9 @@
 
 .plusIcon {
     cursor: pointer;
+}
+
+.high{
+    font-weight: 600;
+    color: $primary;
 }

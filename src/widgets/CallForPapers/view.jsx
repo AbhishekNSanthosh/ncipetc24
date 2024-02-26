@@ -3,6 +3,7 @@ import styles from '@styles/scss/callForPapers.module.scss'
 import Image from 'next/image'
 import { topics } from '../../common/constants/constants'
 import Banner from '@components/Banner'
+import RockerIcon from '@icons/RockerIcon'
 export default function CallForPapers() {
   return (
     <div className={styles.container}>
@@ -29,7 +30,9 @@ export default function CallForPapers() {
               {topics?.map((topic, index) => (
                 <div className={styles.topicItemBox} key={`topicindex${index}`}>
                   <div className={styles.indexBox}>
-                    <span className={styles.index}>{index + 1}</span>
+                    <span className={styles.index}>
+                      <RockerIcon/>
+                    </span>
                   </div>
                   <div className={styles.topicNameBox}>
                     <span className={styles.topic}>{topic?.title}</span>

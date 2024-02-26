@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '@styles/scss/landingPage.module.scss'
 import Image from 'next/image'
+
 export default function LandingPage() {
     return (
         <div className={styles.container}>
@@ -13,13 +14,13 @@ export default function LandingPage() {
                         <span className={styles.tagline}>Empowering Minds, Bridging Horizons: Unveiling the Future at the National Conference on Interdisciplinary Perspectives of Emerging Trends in Computing</span>
                     </div>
                     <div className={styles.row}>
-                        <button className={styles.registerBtn}>
+                        <button className={styles.registerBtn} >
                             Register now
                         </button>
                     </div>
                 </div>
                 <div className={styles.right}>
-                    <Image src="/images/carmelInd.png" height={1000} width={1000} className={styles.img}/>
+                    <Image src="/images/carmelInd.png" height={1000} width={1000} className={styles.img} />
                 </div>
             </div>
         </div>

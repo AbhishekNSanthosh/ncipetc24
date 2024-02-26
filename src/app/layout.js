@@ -3,6 +3,7 @@ import Navbar from "@widgets/Navbar";
 import "@styles/main.scss";
 import Footer from "@widgets/Footer";
 import styles from '@styles/scss/home.module.scss'
+import { Toaster } from "react-hot-toast";
 
 const inter = Raleway({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <Navbar />
+        <Toaster position="bottom-center" />
         <div className={styles.homeContainer}>
           {children}
         </div>

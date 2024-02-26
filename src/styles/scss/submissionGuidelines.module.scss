@@ -33,7 +33,15 @@
 
 .titleBox {
     display: flex;
+    flex-direction: column;
+    gap: 1vh;
     width: 100%;
+    margin-top: 1.5rem;
+}
+
+.descBox{
+    display: flex;
+    flex-direction: column;
 }
 
 .col {
@@ -46,14 +54,14 @@
 
 .guidelines {
     display: flex;
-    align-items: flex-start;
-    // justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
     gap: 3vh;
 }
 
 .titlename{
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 600;
     color: $secondary;
     text-transform: capitalize;
 }
@@ -65,4 +73,15 @@
         color: $secondary;
         text-transform: capitalize;
     }
+}
+
+.titledesc{
+    font-size: $font-size-lg;
+    font-size: 500;
+    text-align: justify;
+}
+
+.link{
+    color: $primary;
+    font-weight: 600;
 }

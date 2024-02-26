@@ -10,10 +10,12 @@ import RightArrowIcon from '@icons/RightArrowIcon'
 import CloseIcon from '@icons/CloseIcon'
 import PlusIcon from '@icons/PlusIcon'
 import MinusIcon from '@icons/MinusIcon'
+import { toast } from 'react-hot-toast';
 
 export default function Navbar() {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
     const [showLink, setShowLink] = useState(null);
+    const [hover, setHover] = useState(null)
     return (
         <div className={styles.container}>
             <div className={styles.wrapper}>
@@ -21,30 +23,47 @@ export default function Navbar() {
                     <div className={styles.left}>
                         <Link className={styles.logo} href="/">NCIPETC'24</Link>
                     </div>
-                    <div className={styles.center}>
+                    <div className={styles.center}                                 onMouseLeave={() => {
+                                    setHover(null)
+                                }}>
                         {navLinks?.map((navItem, index) => (
-                            <div className={styles.navItemBox} key={`navLink${navItem + '_' + index + 1}`}>
+                            <div className={styles.navItemBox} key={`navLink${navItem + '_' + index + 1}`} onMouseEnter={() => {
+                                setHover(index)
+                            }}
+
+                                onClick={()=>{
+                                    setHover(index)
+                                }}
+                            >
                                 <Link className={styles.navLink} href={navItem?.link}>{navItem?.title}</Link>
-                                {navItem?.moreLinks && <DropIcon />}
+                                {/* {navItem?.moreLinks && <DropIcon />} */}
                                 {navItem?.moreLinks &&
-                                    <div className={styles.popper}>
-                                        {navItem?.moreLinks?.map((moreLink, index) => (
-                                            <div className={styles.morelinkBox} key={`moreLink${index + 1}`}>
-                                                <div className={styles.row}>
-                                                    <Link className={styles.moreLink} href={moreLink?.link}>{moreLink?.title}</Link>
-                                                </div>
-                                                {moreLink?.hr &&
-                                                    <hr />
-                                                }
+                                    <>
+                                        {hover === index &&
+                                            <div className={styles.popper}>
+                                                {navItem?.moreLinks?.map((moreLink, index) => (
+                                                    <div className={styles.morelinkBox} key={`moreLink${index + 1}`}>
+                                                        <div className={styles.row}>
+                                                            <Link className={styles.moreLink} href={moreLink?.link}>{moreLink?.title}</Link>
+                                                        </div>
+                                                        {moreLink?.hr &&
+                                                            <hr />
+                                                        }
+                                                    </div>
+                                                ))}
                                             </div>
-                                        ))}
-                                    </div>
+                                        }
+                                    </>
                                 }
                             </div>
                         ))}
                     </div>
                     <div className={styles.right}>
-                        <button className={styles.registerBtn}>Register now</button>
+                        <button className={styles.registerBtn} onClick={()=>{
+                            toast.success('Registration starts soon !!!',{
+                                duration:3000
+                            })
+                        }}>Register now</button>
                     </div>
                     <div className={styles.rightMobile}>
                         {isDrawerOpen ?

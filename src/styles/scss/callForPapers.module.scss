@@ -31,6 +31,7 @@
     display: flex;
     width: 100%;
     gap: 5vh;
+    height: 45vh;
 }
 
 
@@ -90,6 +91,7 @@
 
 .desc {
     font-size: $font-size-lg;
+    text-align: justify;
 }
 
 .topicLeft {

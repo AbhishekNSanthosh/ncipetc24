@@ -5,14 +5,13 @@ export const navLinks = [
         link: "/"
     },
     {
+        title: "about us",
+        link: "/about",
+    },
+    {
         title: "conference",
         link: "/",
         moreLinks: [
-            {
-                title: "about us",
-                link: "/about",
-                hr: true
-            },
             {
                 title: "organizers",
                 link: "/organizers",
@@ -29,6 +28,10 @@ export const navLinks = [
                 hr: false
             },
         ]
+    },
+    {
+        title: "Registration",
+        link: "/",
     },
     {
         title: "paper submission",
@@ -273,13 +276,22 @@ export const topics = [
 ]
 
 export const authorGuidelines = [
-    "We invite the original/review full-text papers from the UG/PG students, academicians/researchers, and industrial experts",
-    "paper should meet the scope of the conference, unpublished and not under consideration for publication elsewhere.",
-    "Prospective Author(s) are requested to submit their softcopy of research papers in IEEE format and not exceedin six pages in length.",
-    "Papers will be reviewed by the experts and will be selected base on novelty and technical content.",
-    "Selected papers should be presented orally by one of the author.",
-    "A few selected papers accepted after peer review, it will be published in SCI/Scopus Indexed Journals.",
-    "Article processing charges if any, shall be payable based on the respective journal policy."
+    "Paper submissions should be in MS-Word / PDF",
+    "Papers submitted to NCIPETC24 should be original and not published or submitted to any other conference / journal",
+    "Papers must be clearly presented in English language",
+    "Submissions will be selected based on their originality, timeliness, significance, relevance, and clarity of presentation."
+]
+
+export const status = [
+    "Accepted",
+    "May be accepted with Minor/Major changes",
+    "Rejected"
+]
+
+export const documents = [
+    "Final camera ready paper (It should be in editable format either word or latex file) ",
+    "Copyright agreement form (It should be duly signed by the corresponding author with date) ",
+    "Payment Proof (Anyone of the author can pay - Registration fee per paper only) "
 ]
 
 export const committe = [

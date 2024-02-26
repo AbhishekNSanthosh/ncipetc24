@@ -47,7 +47,7 @@
     }
 }
 
-.navRow{
+.navRow {
     display: flex;
     width: 90vw;
     align-items: center;
@@ -163,14 +163,18 @@
     background-color: #fff;
     padding: 0.3rem 0.5rem;
     box-shadow: rgba(150, 165, 149, 0.2) 0px 8px 24px;
-    margin-top: 12rem;
+    margin-top: 10.8rem;
     width: auto;
     min-width: 14rem;
     height: auto;
     border-radius: 5px;
 }
 
-.navItemBox:hover .popper {
+// .navItemBox:hover .popper {
+//     display: block;
+// }
+
+.popper {
     display: block;
 }
 
@@ -206,7 +210,7 @@
         align-items: flex-start;
         justify-content: center;
         background-color: $white;
-        height:95vh;
+        height: 95vh;
         width: 100vw;
         position: relative;
         padding: 5vw;
@@ -297,7 +301,7 @@
 
 .registerResBtn {
     display: flex;
-    margin-top: 1rem; 
+    margin-top: 1rem;
     width: 95vw;
     border-radius: 5px;
     padding: 15px;
@@ -308,7 +312,7 @@
     background-color: $secondary;
 }
 
-.credits{
+.credits {
     position: absolute;
     display: flex;
     width: 100%;
@@ -319,11 +323,11 @@
     left: 0.5rem;
 }
 
-.rights{
+.rights {
     font-size: 0.8rem;
 }
 
-.high{
+.high {
     font-weight: 500;
     color: $primary;
 }
