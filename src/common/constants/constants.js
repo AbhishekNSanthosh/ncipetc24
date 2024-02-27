@@ -31,7 +31,7 @@ export const navLinks = [
     },
     {
         title: "Registration",
-        link: "/",
+        link: "/registration",
     },
     {
         title: "paper submission",
@@ -323,4 +323,23 @@ export const committe = [
         img: "/committe/anoop_rs.svg",
         role: "convener"
     },
+]
+
+export const whocanApply = [
+    {
+        title:"UG/PG students",
+        fee:1500
+    },
+    {
+        title:"research scholars",
+        fee:2000
+    },
+    {
+        title:"Academicians/Professionals",
+        fee:2500
+    },
+    {
+        title:"attendees",
+        fee:500
+    }
 ]
