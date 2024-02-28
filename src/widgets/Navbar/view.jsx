@@ -67,7 +67,7 @@ export default function Navbar() {
                             toast.success('Registration starts soon !!!', {
                                 duration: 3000
                             })
-                        }}>Download Brochure</button>
+                        }}>Brochure</button>
                         <button className={styles.registerBtn} onClick={() => {
                             toast.success('Registration starts soon !!!', {
                                 duration: 3000
