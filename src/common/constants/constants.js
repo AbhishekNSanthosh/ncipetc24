@@ -39,8 +39,9 @@ export const navLinks = [
         moreLinks: [
             {
                 title: "submission links",
-                link: "/",
-                hr: true
+                link: "https://docs.google.com/forms/d/1-nWzaZVDC7RaaGWpGmzI0XJjjGVsXdQ-2LbB5b5WIJ4/viewform?edit_requested=true",
+                hr: true,
+                external:true
             },
             {
                 title: "call for paper",

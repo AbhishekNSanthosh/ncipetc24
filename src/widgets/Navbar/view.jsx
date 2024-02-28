@@ -23,15 +23,15 @@ export default function Navbar() {
                     <div className={styles.left}>
                         <Link className={styles.logo} href="/">NCIPETC'24</Link>
                     </div>
-                    <div className={styles.center}                                 onMouseLeave={() => {
-                                    setHover(null)
-                                }}>
+                    <div className={styles.center} onMouseLeave={() => {
+                        setHover(null)
+                    }}>
                         {navLinks?.map((navItem, index) => (
                             <div className={styles.navItemBox} key={`navLink${navItem + '_' + index + 1}`} onMouseEnter={() => {
                                 setHover(index)
                             }}
 
-                                onClick={()=>{
+                                onClick={() => {
                                     setHover(index)
                                 }}
                             >
@@ -44,7 +44,11 @@ export default function Navbar() {
                                                 {navItem?.moreLinks?.map((moreLink, index) => (
                                                     <div className={styles.morelinkBox} key={`moreLink${index + 1}`}>
                                                         <div className={styles.row}>
-                                                            <Link className={styles.moreLink} href={moreLink?.link}>{moreLink?.title}</Link>
+                                                            {moreLink.external ?
+                                                                <a className={styles.moreLink} href={moreLink?.link} target="_blank">{moreLink?.title}</a>
+                                                                :
+                                                                <Link className={styles.moreLink} href={moreLink?.link}>{moreLink?.title}</Link>
+                                                            }
                                                         </div>
                                                         {moreLink?.hr &&
                                                             <hr />
@@ -59,9 +63,9 @@ export default function Navbar() {
                         ))}
                     </div>
                     <div className={styles.right}>
-                        <button className={styles.registerBtn} onClick={()=>{
-                            toast.success('Registration starts soon !!!',{
-                                duration:3000
+                        <button className={styles.registerBtn} onClick={() => {
+                            toast.success('Registration starts soon !!!', {
+                                duration: 3000
                             })
                         }}>Register now</button>
                     </div>
