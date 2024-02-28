@@ -13,6 +13,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    gap: 3vw;
+    height: 60vh;
     width: 100%;
 }
 
@@ -27,10 +30,27 @@
 .box {
     flex: 4;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: 1rem;
     justify-content: center;
     border-radius: 10px;
-    background-color: red;
+    background-color: $white;
+    box-shadow: rgba(202, 202, 202, 0.2) 0px 8px 24px;
     width: 100%;
+    gap: 1vh;
     height: 35vh;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.details{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: capitalize;
 }
