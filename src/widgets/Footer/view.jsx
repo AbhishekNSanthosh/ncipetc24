@@ -37,7 +37,11 @@ export default function Footer() {
                       {link?.moreLinks?.map((moreLink, index) => (
                         <div className={styles.moreLink} key={`morelink${index}`}>
                           <RockerIcon />
-                          <Link href={moreLink?.link} className={styles.navLink}>{moreLink?.title}</Link>
+                          {moreLink?.external ?
+                            <Link target='_blank' href={moreLink?.link} className={styles.navLink}>{moreLink?.title}</Link>
+                            :
+                            <Link href={moreLink?.link} className={styles.navLink}>{moreLink?.title}</Link>
+                          }
                         </div>
                       ))}
                     </div>}
