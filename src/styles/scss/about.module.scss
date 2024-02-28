@@ -165,10 +165,30 @@
     gap: 1vh;
 }
 
+.iconbox{
+    display: flex;
+    margin-top: 1vh;
+}
 
 .missionTitle{
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    gap: 1vw;
     justify-content: flex-start;
+}
+
+.detailsRow{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+.col{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
