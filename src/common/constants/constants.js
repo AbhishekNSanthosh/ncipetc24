@@ -290,7 +290,7 @@ export const status = [
 
 export const documents = [
     "Final camera ready paper (It should be in editable format either word or latex file) ",
-    "Copyright agreement form (It should be duly signed by the corresponding author with date) ",
+    "Copyright agreement form (It should be duly signed by the corresponding author with date).",
     "Payment Proof (Anyone of the author can pay - Registration fee per paper only) "
 ]
 

@@ -70,14 +70,30 @@ export default function SubmissionGuidelines() {
             <span className={styles.titledesc}>Authors should forward the following documents to complete the registration to the conference:</span>
           </div>
           <div className={styles.col}>
-            {documents?.map((guidline, index) => (
-              <div className={styles.guidelines}>
-                <div className={styles.iconbox}>
-                  <RockerIcon />
-                </div>
-                <div className={styles.titledesc}>{guidline}</div>
+            <div className={styles.guidelines}>
+              <div className={styles.iconbox}>
+                <RockerIcon />
               </div>
-            ))}
+              <div className={styles.titledesc}>
+                Final camera ready paper (It should be in editable format either word or latex file)
+              </div>
+            </div>
+            <div className={styles.guidelines}>
+              <div className={styles.iconbox}>
+                <RockerIcon />
+              </div>
+              <div className={styles.titledesc}>
+                Copyright agreement form (It should be duly signed by the corresponding author with date). Copyright agreement template can be <Link className={styles.link} href="https://drive.google.com/file/d/19WInx_LrULZV-ZTmEwwDw5io6Kj2xRTy/view">downloaded here</Link>
+              </div>
+            </div>
+            <div className={styles.guidelines}>
+              <div className={styles.iconbox}>
+                <RockerIcon />
+              </div>
+              <div className={styles.titledesc}>
+                Payment Proof (Anyone of the author can pay - Registration fee per paper only)
+              </div>
+            </div>
           </div>
         </div>
       </div>
