@@ -29,7 +29,7 @@ export default function AboutUs() {
             <div className={styles.col}>
               <div className={styles.missionRow}>
                 <div className={styles.missionTitle}>
-                  <span className={styles.title}>Insitute Mission</span>
+                  <span className={styles.title}>Institute Mission</span>
                 </div>
                 <div className={styles.missionRow}>
                   <div className={styles.missionTitle}>
