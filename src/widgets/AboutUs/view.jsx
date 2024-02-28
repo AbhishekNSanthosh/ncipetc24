@@ -19,13 +19,39 @@ export default function AboutUs() {
                   <p className={styles.desc}>{about?.desc}</p>
                 </div>
                 <div className={styles.descBox}>
-                  <Image src={about?.img} height={500} width={500}/>
+                  <Image src={about?.img} height={500} width={500} />
                 </div>
               </div>
             </div>
           ))}
+          <div className={styles.missionRow}>
+            <div className={styles.missionTitle}>
+              <span className={styles.title}>Department Mission</span>
+            </div>
+            <div className={styles.missionRow}>
+              <div className={styles.missionTitle}>
+                <p className={styles.desc}>To nurture professionally competent and socially committed IT professionals</p>
+              </div>
+            </div>
+          </div>
+          <div className={styles.missionRow}>
+            <div className={styles.missionTitle}>
+              <span className={styles.title}>Department Vision</span>
+            </div>
+            <div className={styles.visionRow}>
+              <div className={styles.missionTitle}>
+                <p className={styles.desc}>Provide quality education in both theoritical and applied fields of computer science.</p>
+              </div>
+              <div className={styles.missionTitle}>
+                <p className={styles.desc}>Equip the students with industry-oriented skills in  computer science to take up real-world challenges .</p>
+              </div>
+              <div className={styles.missionTitle}>
+                <p className={styles.desc}>Inculcate ethical values and leadership qualities.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  ) 
+  )
 }
