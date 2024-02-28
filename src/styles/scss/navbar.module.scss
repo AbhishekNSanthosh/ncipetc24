@@ -62,7 +62,7 @@
 }
 
 .center {
-    flex: 8;
+    flex: 6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,9 +76,10 @@
 }
 
 .right {
-    flex: 2;
+    flex: 3;
     display: flex;
     align-items: center;
+    gap: 1rem;
     justify-content: flex-end;
 }
 
@@ -151,6 +152,18 @@
     font-size: $font-size-esm;
     font-weight: 500;
     color: #fff;
+    cursor: pointer;
+}
+
+.download{
+    padding: 10px 15px;
+    background-color: $white;
+    border-radius: 5px;
+    border: 1px solid $secondary;
+    outline: none;
+    font-size: $font-size-esm;
+    font-weight: 500;
+    color: $secondary;
     cursor: pointer;
 }
 

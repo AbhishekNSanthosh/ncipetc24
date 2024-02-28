@@ -63,6 +63,11 @@ export default function Navbar() {
                         ))}
                     </div>
                     <div className={styles.right}>
+                    <button className={styles.download} onClick={() => {
+                            toast.success('Registration starts soon !!!', {
+                                duration: 3000
+                            })
+                        }}>Download Brochure</button>
                         <button className={styles.registerBtn} onClick={() => {
                             toast.success('Registration starts soon !!!', {
                                 duration: 3000
