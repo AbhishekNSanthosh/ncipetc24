@@ -1,9 +1,8 @@
 import React from 'react'
 import styles from '@styles/scss/submissionGuidelines.module.scss'
 import RockerIcon from '@icons/RockerIcon'
-import { authorGuidelines, documents, status } from '../../common/constants/constants'
+import { authorGuidelines, status } from '../../common/constants/constants'
 import Banner from '@components/Banner'
-import Link from 'next/link'
 
 export default function SubmissionGuidelines() {
   return (
@@ -15,7 +14,7 @@ export default function SubmissionGuidelines() {
             <span className={styles.titlename}>Paper Submission</span>
           </div>
           <div className={styles.descBox}>
-            <span className={styles.titledesc}>Authors are invited to submit papers in electronic format. Instructions are published in the conference website. Acceptance or rejection of papers is based on peer review of the full papers. The size of the paper is limited to 6 pages conforming to the IEEE format and specifications. The IEEE paper template can be <Link className={styles.link} href="https://www.ieee.org/conferences/publishing/templates.html">downloaded here</Link> .</span>
+            <span className={styles.titledesc}>Authors are invited to submit papers in electronic format. Instructions are published in the conference website. Acceptance or rejection of papers is based on peer review of the full papers. The size of the paper is limited to 6 pages conforming to the IEEE format and specifications. The IEEE paper template can be <a className={styles.link} target="_blank" href="https://www.ieee.org/conferences/publishing/templates.html">downloaded here</a> .</span>
           </div>
           <div className={styles.titleBox}>
             <span className={styles.titlename}>AUTHORS</span>
@@ -83,7 +82,7 @@ export default function SubmissionGuidelines() {
                 <RockerIcon />
               </div>
               <div className={styles.titledesc}>
-                Copyright agreement form (It should be duly signed by the corresponding author with date). Copyright agreement template can be <Link className={styles.link} href="https://drive.google.com/file/d/19WInx_LrULZV-ZTmEwwDw5io6Kj2xRTy/view">downloaded here</Link>
+                Copyright agreement form (It should be duly signed by the corresponding author with date). Copyright agreement template can be <a className={styles.link} target="_blank" href="https://drive.google.com/file/d/19WInx_LrULZV-ZTmEwwDw5io6Kj2xRTy/view">downloaded here</a>
               </div>
             </div>
             <div className={styles.guidelines}>
