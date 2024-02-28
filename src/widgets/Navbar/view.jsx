@@ -63,15 +63,28 @@ export default function Navbar() {
                         ))}
                     </div>
                     <div className={styles.right}>
-                    <button className={styles.download} onClick={() => {
-                            toast.success('Registration starts soon !!!', {
-                                duration: 3000
-                            })
+                        <button className={styles.download} onClick={() => {
+                            toast('Brochure will be available soon',
+                                {
+                                    icon: '⏳',
+                                    style: {
+                                        borderRadius: '10px',
+                                        background: '#333',
+                                        color: '#fff',
+                                    },
+                                }
+                            );
                         }}>Brochure</button>
                         <button className={styles.registerBtn} onClick={() => {
-                            toast.success('Registration starts soon !!!', {
-                                duration: 3000
-                            })
+                            toast('Registration starts soon...',
+                                {
+                                    icon: '🌝',
+                                    style: {
+                                        borderRadius: '10px',
+                                        background: 'red',
+                                        color: '#fff',
+                                    },
+                                })
                         }}>Register now</button>
                     </div>
                     <div className={styles.rightMobile}>
