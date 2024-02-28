@@ -76,10 +76,11 @@
 }
 
 .right {
-    flex: 3;
+    flex: 2.5;
     display: flex;
+    gap: 2vw;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 @media only screen and (max-width: 880px) {
