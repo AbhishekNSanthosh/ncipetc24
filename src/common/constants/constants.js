@@ -41,7 +41,7 @@ export const navLinks = [
                 title: "submission links",
                 link: "https://docs.google.com/forms/d/1-nWzaZVDC7RaaGWpGmzI0XJjjGVsXdQ-2LbB5b5WIJ4/viewform?edit_requested=true",
                 hr: true,
-                external:true
+                external: true
             },
             {
                 title: "call for paper",
@@ -169,55 +169,87 @@ export const orgCommitte = {
 export const advisors = [
     {
         id: 1,
-        name: "Prof. Dr. Preetha Mathew K",
-        desgn: "Professor",
-        dep: " Department of CSE, CUCEK",
-        img: "/advisory/preetha.jpg"
+        name: "Prof. Dr. P. Sojan Lal",
+        desgn: "Dean School of Computing and Strategic Planning",
+        dep: "Adi Shankara Insitute of Engineering & Technology (ASIET), Kalady",
+        // qualfs: "M.Tech, MBA (UK), DBA(USA),I ENG(UK), Ph.D, FIE(India)",
+        // desgn: "Professor",
     },
     {
         id: 2,
-        name: "Dr. P. Sojan Lal",
-        qualfs: "M.Tech, MBA (UK), DBA(USA),I ENG(UK), Ph.D, FIE(India)",
+        name: "Prof. Dr.Subhasri Duttagupta",
         desgn: "Professor",
-        dep: " Department of CSE, CUCEK",
-        clg1: "Dean(School of Computing and Strategic Planning - ASIET)",
-        clg2: "Adi Shankara Insitute of Engineering & Technology(ASIET), Kalady",
-        img: "/advisory/sojan.jpeg",
-        more: true
+        dep: "School of Computing, Amritapuri",
     },
     {
         id: 3,
-        name: "Dr. G Muruganath",
-        desgn: "Professor,",
-        dep: "Head, Department of EEE",
-        clg1: "Ahalia School of Engineering & Technology, Palakkad",
-        img: "/advisory/muruganath.jpg",
+        name: "Prof. Dr. Preetha Mathew K",
+        desgn: "Professor",
+        dep: " Department of Computer Science and Engineering",
+        clg1:"Cochin University College of Engineering, Kuttanad",
         more: true
     },
     {
         id: 4,
-        name: "Prof. Syam Gopi",
-        desgn: "Associate Professor,",
-        dep: "Department of CSE",
-        clg1: "Amal Jyothi College of Engineering, Kanjirappally",
-        img: "/advisory/syam.jpeg"  ,
+        name: "Prof. Dr. Susan Jacob",
+        desgn: "Professor and Head",
+        dep: " Department of Civil Engineering",
+        clg1: "Carmel College of Engineering and Technology, Punnapra, Alappuzha",
         more: true
     },
     {
         id: 5,
-        name: "Dr. Esther Daniel",
-        desgn: "Associate Professor,",
-        dep: "Department of CSE",
-        clg1: "Karunya Insitute of Technology & Sciences, Coimbatore",
-        img: "/advisory/esther.jpeg",
-        more:true
+        name: "Prof. Dr. Jayaprasad G",
+        desgn: "Professor and Head",
+        dep: " Department of Mechanical Engineering",
+        clg1: "Carmel College of Engineering and Technology, Punnapra, Alappuzha",
+        more: true
     },
     {
         id: 6,
+        name: "Dr. G Muruganath",
+        desgn: "Professor and Head",
+        dep: "Department of Electrical and Electronics Engineering",
+        clg1: "Ahalia School of Engineering & Technology, Palakkad",
+        more: true
+    },
+    {
+        id: 7,
         name: "Dr. Salaji S",
         desgn: "Associate Professor,",
-        dep: "Division of Mechanical Engineering, CUCEK",
-        img: "/advisory/salaji.jpg"
+        dep: "Cochin University College of Engineering, Kuttanad",
+    },
+    {
+        id: 8,
+        name: "Prof. Sarath K. S",
+        desgn: "Head,",
+        dep: " Department of Electrical and Electronics Engineering",
+        clg1: "Carmel College of Engineering and Technology, Punnapra, Alappuzha",
+        more: true
+    },
+    {
+        id: 9,
+        name: "Prof. Syam Gopi",
+        desgn: "Associate Professor,",
+        dep: "Department of Computer Science and Engineering",
+        clg1: "Amal Jyothi College of Engineering, Kanjirappally",
+        more: true
+    },
+    {
+        id: 10,
+        name: "Dr. Deepthi Sasidharan",
+        desgn: "Associate Professor,",
+        dep: "Department of Information Technology",
+        clg1: "Government Engineering College, Barton Hill, Thiruvananthapuram",
+        more: true
+    },
+    {
+        id: 11,
+        name: "Dr. Esther Daniel",
+        desgn: "Associate Professor,",
+        dep: "Department of Computer Science and Engineering",
+        clg1: "Karunya Institue of Technology and Science, Coimbatore",
+        more: true
     },
 ]
 
@@ -328,19 +360,19 @@ export const committe = [
 
 export const whocanApply = [
     {
-        title:"UG/PG students",
-        fee:1500
+        title: "UG/PG students",
+        fee: 1500
     },
     {
-        title:"research scholars",
-        fee:2000
+        title: "research scholars",
+        fee: 2000
     },
     {
-        title:"Academicians/Professionals",
-        fee:2500
+        title: "Academicians/Professionals",
+        fee: 2500
     },
     {
-        title:"attendees",
-        fee:500
+        title: "attendees",
+        fee: 500
     }
 ]
