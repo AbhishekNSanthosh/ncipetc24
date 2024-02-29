@@ -40,6 +40,17 @@
     gap: 10vh;
 }
 
+@media only screen and (max-width: 880px) {
+    .aboutBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 5vh;
+    }
+}
+
 .aboutTitle {
     display: flex;
     align-items: center;
@@ -146,17 +157,28 @@
     }
 }
 
-.missionRow{
+.missionRow {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2vh;
+    gap: 3vh;
+}
+
+@media only screen and (max-width: 880px) {
+    .missionRow {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1vh;
+    }
 }
 
 
-.visionRow{
+.visionRow {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -165,30 +187,70 @@
     gap: 1vh;
 }
 
-.iconbox{
+.hr{
+    width: 0.3px;
+    background-color: $primary;
+    height: 60%;
+    align-self: center;
+}
+
+.iconbox {
     display: flex;
     margin-top: 1vh;
 }
 
-.missionTitle{
+.missionTitle {
     width: 100%;
     display: flex;
     align-items: flex-start;
     gap: 1vw;
     justify-content: flex-start;
+    height: 8vh;
 }
 
-.detailsRow{
+@media only screen and (max-width: 880px) {
+    .missionTitle {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        gap: 2vh;
+        justify-content: flex-start;
+        height: auto;
+    }
+}
+
+.detailsRow {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     gap: 3vw;
 }
 
-.col{
+@media only screen and (max-width: 880px) {
+    .detailsRow {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 4vh;
+    }
+}
+
+.col {
     flex: 6;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+
+@media only screen and (max-width: 880px) {
+    .col {
+        flex: 6;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 2vh;
+    }
 }

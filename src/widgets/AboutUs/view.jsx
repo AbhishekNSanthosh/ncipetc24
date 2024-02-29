@@ -63,7 +63,7 @@ export default function AboutUs() {
                 </div>
               </div>
             </div>
-
+            <div className={styles.hr}></div>
             <div className={styles.col}>
               <div className={styles.missionRow}>
                 <div className={styles.missionTitle}>
