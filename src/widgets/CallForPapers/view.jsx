@@ -16,7 +16,7 @@ export default function CallForPapers() {
             </span>
           </div>
           <div className={styles.callRight}>
-            <Image src="/images/callforpaper.svg" height={500} width={500} className={styles.img} />
+            <Image src="/images/call.gif" height={500} width={500} className={styles.img} />
           </div>
         </div>
 

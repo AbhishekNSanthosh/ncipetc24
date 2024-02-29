@@ -63,7 +63,7 @@ export const navLinks = [
 
 export const aboutUsData = [
     {
-        title: "about the conference",
+        title: "About the Conference",
         desc: "National Conference on Interdisciplinary Perspectives of Emerging Trends in Computing (NCIPETC 2024). NCIPETC 2024 aims to provide an excellent forum for uniting academicians and experts from industries to share knowledge and research in the field of computing. The conference also serves as  a dynamic platform for researchers, scientists, academicians, and students to exchange their ideas in all aspects of computing including emergin technologies, methodologies and applications. Concepts and products that develop new ideas or theories addressing societal challenges, promoting sustainability and contributing to the advancement of science, engineering, healthcare, business and other domains are encouraged. All the selected papers will be published in conference proceedings and peer-reviewed journal. Only the best paper will be published in the Scopus indexed journal.",
         img: "/images/aboutconf.png",
         reverse: false
@@ -123,7 +123,7 @@ export const orgCommitte = {
         },
         {
             id: 4,
-            name: "Ms Sreeja M. P",
+            name: "Ms Sreeja Nair M. P",
             desgn: "Assistant Professor",
             dep: " Department of CSE, CCET",
             img: "/committe/sreeja.jpg"
@@ -179,7 +179,9 @@ export const advisors = [
         id: 2,
         name: "Prof. Dr.Subhasri Duttagupta",
         desgn: "Professor",
-        dep: "School of Computing, Amritapuri",
+        dep: " Department of Computer Science and Engineering",
+        clg1: "School of Computing, Amritapuri",
+        more:true
     },
     {
         id: 3,
@@ -217,7 +219,9 @@ export const advisors = [
         id: 7,
         name: "Dr. Salaji S",
         desgn: "Associate Professor,",
-        dep: "Cochin University College of Engineering, Kuttanad",
+        dep: " Department of Mechanical Engineering",
+        clg1: "Cochin University College of Engineering, Kuttanad",
+        more:true
     },
     {
         id: 8,
@@ -351,7 +355,7 @@ export const committe = [
     },
     {
         id: 1,
-        name: "Mr. Anoop R. S",
+        name: "Prof. Anoop R. S",
         desgn: "Head, Department of CSE, CCET",
         img: "/committe/anoop_rs.svg",
         role: "convener"
@@ -361,7 +365,7 @@ export const committe = [
 export const whocanApply = [
     {
         title: "UG/PG students",
-        fee: 1500
+        fee: 1000
     },
     {
         title: "research scholars",
