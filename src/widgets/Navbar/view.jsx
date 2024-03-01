@@ -21,7 +21,9 @@ export default function Navbar() {
             <div className={styles.wrapper}>
                 <div className={styles.navRow}>
                     <div className={styles.left}>
-                        <Link className={styles.logo} href="/">NCIPETC'24</Link>
+                        <Link className={styles.logo} onClick={() => {
+                        setIsDrawerOpen(false)
+                    }} href="/">NCIPETC'24</Link>
                     </div>
                     <div className={styles.center} onMouseLeave={() => {
                         setHover(null)
