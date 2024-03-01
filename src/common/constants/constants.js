@@ -64,19 +64,19 @@ export const navLinks = [
 export const aboutUsData = [
     {
         title: "About the Conference",
-        desc: "National Conference on Interdisciplinary Perspectives of Emerging Trends in Computing (NCIPETC 2024). NCIPETC 2024 aims to provide an excellent forum for uniting academicians and experts from industries to share knowledge and research in the field of computing. The conference also serves as  a dynamic platform for researchers, scientists, academicians, and students to exchange their ideas in all aspects of computing including emerging technologies, methodologies and applications. Concepts and products that develop new ideas or theories addressing societal challenges, promoting sustainability and contributing to the advancement of science, engineering, healthcare, business and other domains are encouraged. All the selected papers will be published in conference proceedings. A few selected papers accepted after peer review  will be published in an indexed journal.",
+        desc: "National Conference on Interdisciplinary Perspectives of Emerging Trends in Computing (NCIPETC 2024). NCIPETC 2024 aims to provide an excellent forum for uniting academicians and experts from industries to share knowledge and research in the field of computing. The conference also serves as  a dynamic platform for researchers, scientists, academicians and students to exchange their ideas in all aspects of computing including emerging technologies, methodologies and applications. Concepts and products that develop new ideas or theories addressing societal challenges, promoting sustainability and contributing to the advancement of science, engineering, healthcare, business and other domains are encouraged. All the selected papers will be published in conference proceedings. A few selected papers accepted after peer review  will be published in an indexed journal.",
         img: "/images/aboutconf.png",
         reverse: false
     },
     {
         title: "about carmel college of engineering & technology",
-        desc: "Carmel College of Engineering & Technology (CCET) is owned and managed by St. Joseph's Carmel Educational & Charitable Trust of CMI.CCET is a self-financing college approved by AICTE and affiliated to APJ Abdul Kalam Technological University, Kerala which offers 4 year B.Tech degree courses in Civil Engineering, Mechanical Engineering, Electical Engineering and Computer Science and Engineering.",
+        desc: "Carmel College of Engineering & Technology (CCET) is owned and managed by St. Joseph's Carmel Educational & Charitable Trust of CMI. CCET is a self-financing college approved by AICTE and affiliated to APJ Abdul Kalam Technological University, Kerala which offers 4 year B.Tech degree courses in Civil Engineering, Mechanical Engineering, Electical Engineering and Computer Science and Engineering.",
         img: "/images/aboutclg.png",
         reverse: true
     },
     {
         title: "About department",
-        desc: "The Department of CSE in Carmel College of Engineering and Technology was established in 2017 with a maximum intake of 60 students per year. Department plays a key role to enhance the learning and technical competence of students in the field of Computer Science & Engineering. Workshops and hands-on sessions are conducted on a regular basis. The Department frequently conducts seminars and invited talks with the support of experienced resource persons from the industry and well known Academic institutions. Department has signed MoU with various IT legends and International Universities.",
+        desc: "The Department of CSE in Carmel College of Engineering and Technology was established in 2017 with a maximum intake of 60 students per year. Department plays a key role to enhance the learning and technical competence of students in the field of Computer Science & Engineering. Workshops and hands-on sessions are conducted on a regular basis. The Department frequently conducts seminars and invited talks with the support of experienced resource persons from the industry and well known academic institutions. Department has signed MoU with various IT legends and International Universities.",
         img: "/images/dep.png",
         reverse: false
     }
@@ -344,14 +344,14 @@ export const committe = [
         name: "REV. Fr Justin Alukkal CMI",
         desgn: "Director, CCET",
         img: "/committe/fr_justin.svg",
-        role: "parton"
+        role: "patron"
     },
     {
         id: 2,
         name: "Dr Paul K. Mathew",
         desgn: "Principal, CCET",
         img: "/committe/paul_k_mathew.svg",
-        role: "parton"
+        role: "patron"
     },
     {
         id: 1,

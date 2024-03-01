@@ -13,11 +13,7 @@ export default function PersonCard({ title, data }) {
                         <span className={styles.name}>{row?.name}</span>
                         <span className={styles.dep}>{row?.desgn}</span>
                         <span className={styles.dep}>{row?.dep} {row?.more && <>
-                            {show === index ?
-                                <span className={styles.more} onClick={() => {
-                                    setShow(null);
-                                }}>Show less...</span>
-                                :
+                            {show !== index &&
                                 <span className={styles.more} onClick={() => {
                                     setShow(index);
                                 }}>Show more...</span>
@@ -28,6 +24,9 @@ export default function PersonCard({ title, data }) {
                                 <span className={styles.dep}>{row?.qualfs}</span>
                                 <span className={styles.dep}>{row?.clg1}</span>
                                 <span className={styles.dep}>{row?.clg2}</span>
+                                <span className={styles.more} onClick={() => {
+                                    setShow(null);
+                                }}>Show less...</span>
                             </>
                         }
                     </div>
