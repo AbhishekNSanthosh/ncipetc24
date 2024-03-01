@@ -65,7 +65,7 @@ export default function SubmissionGuidelines() {
             <span className={styles.titlename}>GENERAL GUIDELINES</span>
           </div>
           <div className={styles.descBox}>
-            <span className={styles.titledesc}>Fee payment is required in order to attend the conference. The authors of accepted submission must register for the conference and pay the registration fee before the deadline. Each paper should have at least one author who pays the registration fee and attends the conference. Requests to update, edit, change, or add information to the paper after final submission will not be entertained.</span>
+            <span className={styles.titledesc}>Fee payment is required in order to attend the conference. The authors of accepted submission must register for the conference and pay the registration fee before the deadline. Each paper should have atleast one author who pays the registration fee and attends the conference. Requests to update, edit, change, or add information to the paper after final submission will not be entertained.</span>
             <span className={styles.titledesc}>Authors should forward the following documents to complete the registration to the conference:</span>
           </div>
           <div className={styles.col}>

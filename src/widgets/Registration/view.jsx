@@ -13,7 +13,7 @@ export default function Registration() {
             <span className={styles.title}>Who can Apply?</span>
           </div>
           <div className={styles.descBox}>
-            <span className={styles.desc}>This conference is open to UG/PG students of Engineering colleges, Academicians, Research Scholars, Professionals, from research organizations and industries.</span>
+            <span className={styles.desc}>This conference is open to UG/PG students of Engineering colleges, Academicians, Research Scholar, Professionals, from research organizations and industries.</span>
           </div>
         </div>
         <div className={styles.itemrow}>
