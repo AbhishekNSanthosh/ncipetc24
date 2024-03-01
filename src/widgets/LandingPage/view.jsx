@@ -1,6 +1,9 @@
+"use client"
+
 import React from 'react'
 import styles from '@styles/scss/landingPage.module.scss'
 import Image from 'next/image'
+import { toast } from 'react-hot-toast';
 
 export default function LandingPage() {
     return (
@@ -14,7 +17,17 @@ export default function LandingPage() {
                         <span className={styles.tagline}>Empowering Minds, Bridging Horizons: Unveiling the Future at the National Conference on Interdisciplinary Perspectives of Emerging Trends in Computing</span>
                     </div>
                     <div className={styles.row}>
-                        <button className={styles.registerBtn} >
+                        <button className={styles.registerBtn} onClick={() => {
+                            toast('Registration starts soon...',
+                                {
+                                    icon: '🌝',
+                                    style: {
+                                        borderRadius: '10px',
+                                        background: 'green',
+                                        color: '#fff',
+                                    },
+                                })
+                        }} >
                             Register now
                         </button>
                     </div>

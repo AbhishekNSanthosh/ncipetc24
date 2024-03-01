@@ -69,7 +69,7 @@ export default function Navbar() {
                                     icon: '⏳',
                                     style: {
                                         borderRadius: '10px',
-                                        background: '#333',
+                                        background: 'green',
                                         color: '#fff',
                                     },
                                 }
@@ -163,12 +163,23 @@ export default function Navbar() {
                                 </div>
                             ))}
                             <div className={styles.res}>
-                                <button className={styles.registerResBtn}>Register now</button>
+                                <button className={styles.registerResBtn} onClick={() => {
+                                    toast('Registration starts soon...',
+                                        {
+                                            icon: '🌝',
+                                            style: {
+                                                borderRadius: '10px',
+                                                background: 'green',
+                                                color: '#fff',
+                                            },
+                                        })
+                                }}>Register now</button>
                             </div>
                         </div>
                         <div className={styles.credits}>
+                            <span className={styles.rights}>All rights reserved.</span>
                             <span className={styles.rights}>Copyright © 2024 - NCIPETC'24</span>
-                            <span className={styles.rights}>Designed & Developed by <Link target='_blank' className={styles.high} href="https://www.linkedin.com/in/abhishek-santhosh/">Abhishek Santhosh</Link></span>
+                            {/* <span className={styles.rights}>Designed & Developed by <Link target='_blank' className={styles.high} href="https://www.linkedin.com/in/abhishek-santhosh/">Abhishek Santhosh</Link></span> */}
                         </div>
                     </div>
                 }
