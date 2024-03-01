@@ -24,14 +24,14 @@ export default function Registration() {
                   <span className={styles.itemName}>{item?.title}</span>
                 </div>
                 <div className={styles.item}>
-                  <span className={styles.fee}>₹{" "}{item?.fee}</span>
+                  <span className={styles.fee}>₹{" "}{item?.fee}/-</span>
                 </div>
               </div>
             ))}
           </div>
           <div className={styles.infobox}>
             <div className={styles.bank}>
-              <span className={styles.details}>Bank details will be updated soon !</span>
+              <span className={styles.bankdetails}>Bank details will be updated soon !</span>
             </div>
           </div>
         </div>

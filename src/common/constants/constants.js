@@ -64,13 +64,13 @@ export const navLinks = [
 export const aboutUsData = [
     {
         title: "About the Conference",
-        desc: "National Conference on Interdisciplinary Perspectives of Emerging Trends in Computing (NCIPETC 2024). NCIPETC 2024 aims to provide an excellent forum for uniting academicians and experts from industries to share knowledge and research in the field of computing. The conference also serves as  a dynamic platform for researchers, scientists, academicians, and students to exchange their ideas in all aspects of computing including emergin technologies, methodologies and applications. Concepts and products that develop new ideas or theories addressing societal challenges, promoting sustainability and contributing to the advancement of science, engineering, healthcare, business and other domains are encouraged. All the selected papers will be published in conference proceedings and peer-reviewed journal. Only the best paper will be published in the Scopus indexed journal.",
+        desc: "National Conference on Interdisciplinary Perspectives of Emerging Trends in Computing (NCIPETC 2024). NCIPETC 2024 aims to provide an excellent forum for uniting academicians and experts from industries to share knowledge and research in the field of computing. The conference also serves as  a dynamic platform for researchers, scientists, academicians, and students to exchange their ideas in all aspects of computing including emerging technologies, methodologies and applications. Concepts and products that develop new ideas or theories addressing societal challenges, promoting sustainability and contributing to the advancement of science, engineering, healthcare, business and other domains are encouraged. All the selected papers will be published in conference proceedings. A few selected papers accepted after peer review  will be published in an indexed journal.",
         img: "/images/aboutconf.png",
         reverse: false
     },
     {
         title: "about carmel college of engineering & technology",
-        desc: "Carmel college of engineering & technology (CCET) is owned and managed by St. Joseph's Carmel Educational & Charitable Trust of CMI.CCET is a self-financing college approved by AICTE and affiliated to APJ Abdul Kalam Technological University, kerala which offers 4 year B.Tech degree courses in Civil Engineering, Mechanical Engineering, Electical Engineering and Computer Science and Engineering.",
+        desc: "Carmel College of Engineering & Technology (CCET) is owned and managed by St. Joseph's Carmel Educational & Charitable Trust of CMI.CCET is a self-financing college approved by AICTE and affiliated to APJ Abdul Kalam Technological University, kerala which offers 4 year B.Tech degree courses in Civil Engineering, Mechanical Engineering, Electical Engineering and Computer Science and Engineering.",
         img: "/images/aboutclg.png",
         reverse: true
     },
@@ -378,5 +378,9 @@ export const whocanApply = [
     {
         title: "attendees",
         fee: 500
+    },
+    {
+        title: "accompanying co-author",
+        fee: 250
     }
 ]
