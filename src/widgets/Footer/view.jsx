@@ -25,7 +25,7 @@ export default function Footer() {
                 {navLinks?.map((link, index) => (
                   <div className={styles.footerRes} key={`navlink_` + index}>
                     <div className={styles.leftItem} >
-                      <Link href='' className={styles.navLink}>{link?.title}</Link>
+                      <Link href={link?.link} className={styles.navLink}>{link?.title}</Link>
                       {link?.moreLinks && <>
                         {clicked === index ? <div className={styles.plusIcon} onClick={() => setClicked(null)}><MinusIcon /></div>
                           :

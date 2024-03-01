@@ -10,7 +10,7 @@ export const navLinks = [
     },
     {
         title: "conference",
-        link: "/",
+        link: "#",
         moreLinks: [
             {
                 title: "organizers",
@@ -35,7 +35,7 @@ export const navLinks = [
     },
     {
         title: "paper submission",
-        link: "",
+        link: "#",
         moreLinks: [
             {
                 title: "submission links",
