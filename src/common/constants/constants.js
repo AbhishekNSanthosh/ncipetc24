@@ -216,6 +216,14 @@ export const advisors = [
         more: true
     },
     {
+        id: 10,
+        name: "Dr. Deepthi Sasidharan",
+        desgn: "Associate Professor,",
+        dep: "Department of Information Technology",
+        clg1: "Government Engineering College, Barton Hill, Thiruvananthapuram",
+        more: true
+    },
+    {
         id: 7,
         name: "Dr. Salaji S",
         desgn: "Associate Professor,",
@@ -237,14 +245,6 @@ export const advisors = [
         desgn: "Associate Professor,",
         dep: "Department of Computer Science and Engineering",
         clg1: "Amal Jyothi College of Engineering, Kanjirappally",
-        more: true
-    },
-    {
-        id: 10,
-        name: "Dr. Deepthi Sasidharan",
-        desgn: "Associate Professor,",
-        dep: "Department of Information Technology",
-        clg1: "Government Engineering College, Barton Hill, Thiruvananthapuram",
         more: true
     },
     {
