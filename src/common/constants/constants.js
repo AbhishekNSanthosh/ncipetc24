@@ -70,7 +70,7 @@ export const aboutUsData = [
     },
     {
         title: "about carmel college of engineering & technology",
-        desc: "Carmel College of Engineering & Technology (CCET) is owned and managed by St. Joseph's Carmel Educational & Charitable Trust of CMI. CCET is a self-financing college approved by AICTE and affiliated to APJ Abdul Kalam Technological University, Kerala which offers 4 year B.Tech degree courses in Civil Engineering, Mechanical Engineering, Electical Engineering and Computer Science and Engineering.",
+        desc: "Carmel College of Engineering & Technology (CCET) is owned and managed by St. Joseph's Carmel Educational & Charitable Trust of CMI. CCET is a self-financing college approved by AICTE and affiliated to APJ Abdul Kalam Technological University, Kerala which offers 4 year B.Tech degree courses in Civil Engineering, Mechanical Engineering, Electrical and Electronics Engineering and Computer Science and Engineering.",
         img: "/images/aboutclg.png",
         reverse: true
     },
