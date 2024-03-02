@@ -29,7 +29,7 @@ export default function AboutUs() {
             <div className={styles.col}>
               <div className={styles.missionRow}>
                 <div className={styles.missionTitle}>
-                  <span className={styles.title}>Institute Mission</span>
+                  <span className={styles.title}>Institute Vision</span>
                 </div>
                 <div className={styles.missionRow}>
                   <div className={styles.missionTitle}>
@@ -39,7 +39,7 @@ export default function AboutUs() {
               </div>
               <div className={styles.missionRow}>
                 <div className={styles.missionTitle}>
-                  <span className={styles.title}>Institute Vision</span>
+                  <span className={styles.title}>Institute Mission</span>
                 </div>
                 <div className={styles.visionRow}>
                   <div className={styles.missionTitle}>
@@ -67,7 +67,7 @@ export default function AboutUs() {
             <div className={styles.col}>
               <div className={styles.missionRow}>
                 <div className={styles.missionTitle}>
-                  <span className={styles.title}>Department Mission</span>
+                  <span className={styles.title}>Department Vision</span>
                 </div>
                 <div className={styles.missionRow}>
                   <div className={styles.missionTitle}>
@@ -77,7 +77,7 @@ export default function AboutUs() {
               </div>
               <div className={styles.missionRow}>
                 <div className={styles.missionTitle}>
-                  <span className={styles.title}>Department Vision</span>
+                  <span className={styles.title}>Department Mission</span>
                 </div>
                 <div className={styles.visionRow}>
                   <div className={styles.missionTitle}>
