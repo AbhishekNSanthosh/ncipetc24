@@ -18,7 +18,7 @@ import { Analytics } from "@vercel/analytics/react"
 const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "NCIPETC'24",
+  title: "NCIPETC-24",
   description: "Empowering Minds, Bridging Horizons: Unveiling the Future at the National Conference on Interdisciplinary Perspectives of Emerging Trends in Computing",
 };
 
